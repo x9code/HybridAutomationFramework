@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <suite name="Suite">
+<listeners>
+    <listener class-name="com.orangehrm.listeners.Listeners"/>
+    <listener class-name="com.orangehrm.tests.Listeners"/>
+    <listener class-name="com.orangehrm.listeners.RetryListener"/>
+</listeners>
+
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.orangehrm.tests.LoginTest"/>
+      <class name="com.orangehrm.tests.LoginTest"/>
+      <class name="com.orangehrm.tests.AdminModuleTest"/>
+      <class name="com.orangehrm.tests.LeaveModuleTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

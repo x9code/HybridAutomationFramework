@@ -1,19 +1,22 @@
 package com.orangehrm.pages;
 
-import org.openqa.selenium.By;
+import com.orangehrm.base.BasePage;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public class DashboardPage {
+public class DashboardPage extends BasePage {
 
-    private WebDriver driver;
-
-    private By dashboardText = By.xpath("//h6[text()='Dashboard']");
+    @FindBy(css = "h6.oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module")
+    WebElement dashboardHeader;
 
     public DashboardPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
+        PageFactory.initElements(driver, this);
     }
 
     public boolean isDashboardDisplayed() {
-        return driver.findElement(dashboardText).isDisplayed();
+        return isDisplayed(dashboardHeader);
     }
 }

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-02T23:19:33 IST" name="Suite" finished-at="2025-12-02T23:19:45 IST" duration-ms="11921">
+  <suite started-at="2025-12-03T23:25:15 IST" name="Default suite" finished-at="2025-12-03T23:25:24 IST" duration-ms="9328">
     <groups>
     </groups>
-    <test started-at="2025-12-02T23:19:33 IST" name="Test" finished-at="2025-12-02T23:19:45 IST" duration-ms="11921">
+    <test started-at="2025-12-03T23:25:15 IST" name="Default test" finished-at="2025-12-03T23:25:24 IST" duration-ms="9328">
       <class name="com.orangehrm.tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@510f3d34]" started-at="2025-12-02T23:19:33 IST" name="setUp" finished-at="2025-12-02T23:19:42 IST" duration-ms="9150" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.LoginTest@23348b5d]" started-at="2025-12-03T23:25:15 IST" name="setUp" finished-at="2025-12-03T23:25:22 IST" duration-ms="6685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyValidLogin()[pri:0, instance:com.orangehrm.tests.LoginTest@510f3d34]" started-at="2025-12-02T23:19:42 IST" name="verifyValidLogin" finished-at="2025-12-02T23:19:44 IST" duration-ms="2422" status="PASS">
+        <test-method signature="verifyValidLogin()[pri:0, instance:com.orangehrm.tests.LoginTest@23348b5d]" started-at="2025-12-03T23:25:22 IST" name="verifyValidLogin" finished-at="2025-12-03T23:25:24 IST" duration-ms="2343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.LoginTest@510f3d34]" started-at="2025-12-02T23:19:44 IST" name="tearDown" finished-at="2025-12-02T23:19:45 IST" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.LoginTest@23348b5d]" started-at="2025-12-03T23:25:24 IST" name="tearDown" finished-at="2025-12-03T23:25:24 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.tests.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -8,13 +8,22 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseClass {
 
-    @Test
+    @Test (retryAnalyzer = com.orangehrm.utilities.RetryAnalyzer.class)
     public void verifyValidLogin() {
+
+        logger.info("----- Starting Login Test -----");
 
         LoginPage lp = new LoginPage(driver);
         lp.login(prop.getProperty("username"), prop.getProperty("password"));
+        logger.info("Entered username and password");
 
         DashboardPage dp = new DashboardPage(driver);
-        Assert.assertTrue(dp.isDashboardDisplayed(), "Login Failed!");
+
+        Assert.assertTrue(
+                dp.isDashboardDisplayed(),
+                "❌ Dashboard not displayed → Login failed!"
+        );
+
+        logger.info("✅ Login successful → Dashboard visible");
     }
 }

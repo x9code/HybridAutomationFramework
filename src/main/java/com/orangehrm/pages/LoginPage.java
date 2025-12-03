@@ -1,43 +1,33 @@
 package com.orangehrm.pages;
 
-import org.openqa.selenium.By;
+import com.orangehrm.base.BasePage;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
-
-    private WebDriver driver;
+public class LoginPage extends BasePage {
 
     // Locators
-    private By username = By.name("username");
-    private By password = By.name("password");
-    private By loginBtn = By.xpath("//button[@type='submit']");
+    @FindBy(name = "username")
+    WebElement usernameInput;
+
+    @FindBy(name = "password")
+    WebElement passwordInput;
+
+    @FindBy(css = "button[type='submit']")
+    WebElement loginBtn;
 
     // Constructor
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
+        PageFactory.initElements(driver, this);
     }
 
     // Actions
-    public void enterUsername(String user) {
-        driver.findElement(username).sendKeys(user);
-    }
-
-    public void enterPassword(String pass) {
-        driver.findElement(password).sendKeys(pass);
-    }
-
-    public void clickLogin() {
-        driver.findElement(loginBtn).click();
-    }
-
-    public String getPageTitle() {
-        return driver.getTitle();
-    }
-
     public void login(String user, String pass) {
-        enterUsername(user);
-        enterPassword(pass);
-        clickLogin();
+        type(usernameInput, user);
+        type(passwordInput, pass);
+        click(loginBtn);
     }
 }
-
