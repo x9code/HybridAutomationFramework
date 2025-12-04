@@ -373,5 +373,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **Happy Testing! 🚀**
 
 </div>
-```bash
-git clone https://github.com/x9code/HybridAutomationFramework.git
+
