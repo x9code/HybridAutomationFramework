@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DashboardPage extends BasePage {
 
-    @FindBy(css = "h6.oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module")
+    @FindBy(xpath = "//h6[text()='Dashboard']")
     WebElement dashboardHeader;
 
     public DashboardPage(WebDriver driver) {

@@ -11,28 +11,24 @@ public class LeaveModuleTest extends BaseClass {
     @Test
     public void verifyApplyLeave() {
 
-        logger.info("===== Starting Leave Module Test =====");
-
-        // Login
         LoginPage login = new LoginPage(driver);
         login.login(prop.getProperty("username"), prop.getProperty("password"));
-        logger.info("Logged in successfully");
 
-        // Navigate to Leave section
         LeavePage leave = new LeavePage(driver);
-        leave.goToLeaveSection();
-        logger.info("Opened Leave section");
 
-        // Apply leave
-        leave.applyLeave("2025-12-20", "2025-12-21");
-        logger.info("Applied leave for given dates");
+        // 1️⃣ Apply Leave
+        leave.goToApplyLeave();
+        leave.applyLeave("2025-01-10", "2025-01-10");
+        Assert.assertTrue(leave.isLeaveApplied(), "❌ Leave not applied!");
 
-        // Assertion
-        Assert.assertTrue(
-                leave.isLeaveApplied(),
-                "❌ Leave was not applied!"
-        );
+        // 2️⃣ Go to My Leave
+        leave.goToMyLeave();
 
-        logger.info("✅ Leave applied successfully");
+        // 3️⃣ Search Leave List
+        leave.searchLeave("2025-01-01", "2025-12-31");
+
+        // 4️⃣ Validate record exists
+        Assert.assertTrue(leave.isResultDisplayed(),
+                "❌ Leave record not found in My Leave list!");
     }
 }

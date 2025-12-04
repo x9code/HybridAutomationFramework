@@ -8,35 +8,65 @@ import java.time.Duration;
 public class BasePage {
 
     protected WebDriver driver;
-    protected WebDriverWait wait;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    protected void click(WebElement element) {
-        wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+    // Click wrapper
+    public void click(WebElement element) {
+        element.click();
     }
 
-    protected void type(WebElement element, String text) {
-        wait.until(ExpectedConditions.visibilityOf(element)).clear();
+    // Type wrapper
+    public void type(WebElement element, String text) {
+        element.clear();
         element.sendKeys(text);
     }
 
-    protected String getText(WebElement element) {
-        return wait.until(ExpectedConditions.visibilityOf(element)).getText();
+    // Check if displayed
+    public boolean isDisplayed(WebElement element) {
+        try {
+            return element.isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
+    }
+    public void enterDate(WebElement element, String date) {
+        element.click();
+        element.sendKeys(Keys.CONTROL + "a");
+        element.sendKeys(Keys.DELETE);
+        element.sendKeys(date);
     }
 
-    protected void waitForVisible(WebElement element) {
+
+    // ---- Added methods ----
+    
+    public void waitForVisibility(WebElement element, int time) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    protected boolean isDisplayed(WebElement element) {
+    public void scrollToElement(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+    public void clearAndType(WebElement element, String text) {
+        element.clear();
+        element.sendKeys(text);
+    }
+    public void clearField(WebElement element) {
+        element.click();
+        element.sendKeys(Keys.CONTROL + "a");
+        element.sendKeys(Keys.DELETE);
+    }
+
+
+    public void wait(int seconds) {
         try {
-            return wait.until(ExpectedConditions.visibilityOf(element)).isDisplayed();
-        } catch (Exception e) {
-            return false;
+            Thread.sleep(seconds * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 }

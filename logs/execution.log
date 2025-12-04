@@ -1,44 +1,92 @@
-2025-12-03 22:54:56 [main] INFO  LoginTest - =========== Test Started ===========
-2025-12-03 22:54:56 [main] INFO  LoginTest - Loaded config.properties
-2025-12-03 22:54:56 [main] INFO  LoginTest - Launching browser: chrome
-2025-12-03 22:55:03 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-03 22:55:03 [main] INFO  LoginTest - Starting login test
-2025-12-03 22:55:05 [main] INFO  LoginTest - Entered login credentials
-2025-12-03 22:55:07 [main] INFO  LoginTest - Dashboard displayed successfully
-2025-12-03 22:55:07 [main] INFO  LoginTest - Closing the browser
-2025-12-03 22:55:08 [main] INFO  LoginTest - =========== Test Finished ===========
-2025-12-03 22:59:33 [main] INFO  LoginTest - =========== Test Started ===========
-2025-12-03 22:59:33 [main] INFO  LoginTest - Loaded config.properties
-2025-12-03 22:59:33 [main] INFO  LoginTest - Launching browser: chrome
-2025-12-03 22:59:38 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-03 22:59:38 [main] INFO  LoginTest - This is a test log message!
-2025-12-03 22:59:38 [main] ERROR LoginTest - Sample error log!
-2025-12-03 22:59:38 [main] INFO  LoginTest - Closing the browser
-2025-12-03 22:59:38 [main] INFO  LoginTest - =========== Test Finished ===========
-2025-12-03 23:01:32 [main] INFO  LoginTest - =========== Test Started ===========
-2025-12-03 23:01:32 [main] INFO  LoginTest - Loaded config.properties
-2025-12-03 23:01:32 [main] INFO  LoginTest - Launching browser: chrome
-2025-12-03 23:01:37 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-03 23:01:37 [main] INFO  LoginTest - Starting login test
-2025-12-03 23:01:38 [main] INFO  LoginTest - Entered login credentials
-2025-12-03 23:01:40 [main] INFO  LoginTest - Dashboard displayed successfully
-2025-12-03 23:01:40 [main] INFO  LoginTest - Closing the browser
-2025-12-03 23:01:40 [main] INFO  LoginTest - =========== Test Finished ===========
-2025-12-03 23:13:23 [main] INFO  LoginTest - =========== Test Started ===========
-2025-12-03 23:13:23 [main] INFO  LoginTest - Loaded config.properties
-2025-12-03 23:13:23 [main] INFO  LoginTest - Launching browser: chrome
-2025-12-03 23:13:29 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-03 23:13:29 [main] INFO  LoginTest - ----- Starting Login Test -----
-2025-12-03 23:13:30 [main] INFO  LoginTest - Entered username and password
-2025-12-03 23:13:32 [main] INFO  LoginTest - ✅ Login successful → Dashboard visible
-2025-12-03 23:13:32 [main] INFO  LoginTest - Closing the browser
-2025-12-03 23:13:32 [main] INFO  LoginTest - =========== Test Finished ===========
-2025-12-03 23:25:15 [main] INFO  LoginTest - =========== Test Started ===========
-2025-12-03 23:25:15 [main] INFO  LoginTest - Loaded config.properties
-2025-12-03 23:25:15 [main] INFO  LoginTest - Launching browser: chrome
-2025-12-03 23:25:22 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-03 23:25:22 [main] INFO  LoginTest - ----- Starting Login Test -----
-2025-12-03 23:25:22 [main] INFO  LoginTest - Entered username and password
-2025-12-03 23:25:24 [main] INFO  LoginTest - ✅ Login successful → Dashboard visible
-2025-12-03 23:25:24 [main] INFO  LoginTest - Closing the browser
-2025-12-03 23:25:24 [main] INFO  LoginTest - =========== Test Finished ===========
+2025-12-05 00:04:23 [main] INFO  Listeners - ===== Test Suite Started =====
+2025-12-05 00:04:23 [main] INFO  LoginTest - =========== Test Started ===========
+2025-12-05 00:04:23 [main] INFO  LoginTest - Loaded config.properties
+2025-12-05 00:04:23 [main] INFO  LoginTest - Launching browser: chrome
+2025-12-05 00:04:29 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:04:29 [main] INFO  Listeners - 🟦 Test Started: verifyValidLogin
+2025-12-05 00:04:29 [main] INFO  LoginTest - ----- Starting Login Test -----
+2025-12-05 00:04:30 [main] INFO  LoginTest - Entered username and password
+2025-12-05 00:04:32 [main] INFO  LoginTest - ✅ Login successful → Dashboard visible
+2025-12-05 00:04:32 [main] INFO  Listeners - ✅ Test Passed: verifyValidLogin
+2025-12-05 00:04:32 [main] INFO  LoginTest - Closing the browser
+2025-12-05 00:04:32 [main] INFO  LoginTest - =========== Test Finished ===========
+2025-12-05 00:04:32 [main] INFO  AddEmployeeTest - =========== Test Started ===========
+2025-12-05 00:04:32 [main] INFO  AddEmployeeTest - Loaded config.properties
+2025-12-05 00:04:32 [main] INFO  AddEmployeeTest - Launching browser: chrome
+2025-12-05 00:04:37 [main] INFO  AddEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:04:37 [main] INFO  Listeners - 🟦 Test Started: verifyAddEmployee
+2025-12-05 00:04:37 [main] INFO  AddEmployeeTest - === Starting Add Employee Test ===
+2025-12-05 00:04:38 [main] INFO  AddEmployeeTest - Logged in successfully
+2025-12-05 00:04:39 [main] INFO  AddEmployeeTest - Dashboard displayed
+2025-12-05 00:04:42 [main] INFO  AddEmployeeTest - Navigated to PIM module
+2025-12-05 00:04:44 [main] INFO  AddEmployeeTest - Filled employee details & clicked Save
+2025-12-05 00:04:46 [main] INFO  AddEmployeeTest - ✅ Employee added successfully!
+2025-12-05 00:04:46 [main] INFO  Listeners - ✅ Test Passed: verifyAddEmployee
+2025-12-05 00:04:46 [main] INFO  AddEmployeeTest - Closing the browser
+2025-12-05 00:04:46 [main] INFO  AddEmployeeTest - =========== Test Finished ===========
+2025-12-05 00:04:46 [main] INFO  AdminModuleTest - =========== Test Started ===========
+2025-12-05 00:04:46 [main] INFO  AdminModuleTest - Loaded config.properties
+2025-12-05 00:04:46 [main] INFO  AdminModuleTest - Launching browser: chrome
+2025-12-05 00:04:50 [main] INFO  AdminModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:04:50 [main] INFO  Listeners - 🟦 Test Started: verifySearchUser
+2025-12-05 00:04:50 [main] INFO  AdminModuleTest - ===== Starting Admin Module Test =====
+2025-12-05 00:04:51 [main] INFO  AdminModuleTest - Logged in successfully
+2025-12-05 00:04:54 [main] INFO  AdminModuleTest - Navigated to Admin module
+2025-12-05 00:04:55 [main] INFO  AdminModuleTest - Searched for user: Admin
+2025-12-05 00:04:55 [main] INFO  AdminModuleTest - ✅ Admin user found successfully
+2025-12-05 00:04:55 [main] INFO  Listeners - ✅ Test Passed: verifySearchUser
+2025-12-05 00:04:55 [main] INFO  AdminModuleTest - Closing the browser
+2025-12-05 00:04:55 [main] INFO  AdminModuleTest - =========== Test Finished ===========
+2025-12-05 00:04:55 [main] INFO  LeaveModuleTest - =========== Test Started ===========
+2025-12-05 00:04:55 [main] INFO  LeaveModuleTest - Loaded config.properties
+2025-12-05 00:04:55 [main] INFO  LeaveModuleTest - Launching browser: chrome
+2025-12-05 00:05:00 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:05:00 [main] INFO  Listeners - 🟦 Test Started: verifyApplyLeave
+2025-12-05 00:05:00 [main] ERROR Listeners - ❌ Test Failed: verifyApplyLeave
+2025-12-05 00:05:00 [main] INFO  ScreenshotUtil - Screenshot saved successfully: ./screenshots/verifyApplyLeave_20251205_000500.png
+2025-12-05 00:05:00 [main] INFO  Listeners - 📸 Screenshot captured at: ./screenshots/verifyApplyLeave_20251205_000500.png
+2025-12-05 00:05:00 [main] INFO  LeaveModuleTest - Closing the browser
+2025-12-05 00:05:00 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
+2025-12-05 00:05:00 [main] INFO  Listeners - ===== Test Suite Finished =====
+2025-12-05 00:06:36 [main] INFO  LeaveModuleTest - =========== Test Started ===========
+2025-12-05 00:06:36 [main] INFO  LeaveModuleTest - Loaded config.properties
+2025-12-05 00:06:36 [main] INFO  LeaveModuleTest - Launching browser: chrome
+2025-12-05 00:06:43 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:06:43 [main] INFO  LeaveModuleTest - Closing the browser
+2025-12-05 00:06:43 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
+2025-12-05 00:09:14 [main] INFO  LeaveModuleTest - =========== Test Started ===========
+2025-12-05 00:09:14 [main] INFO  LeaveModuleTest - Loaded config.properties
+2025-12-05 00:09:14 [main] INFO  LeaveModuleTest - Launching browser: chrome
+2025-12-05 00:09:23 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:09:41 [main] INFO  LeaveModuleTest - Closing the browser
+2025-12-05 00:09:41 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
+2025-12-05 00:12:01 [main] INFO  LeaveModuleTest - =========== Test Started ===========
+2025-12-05 00:12:01 [main] INFO  LeaveModuleTest - Loaded config.properties
+2025-12-05 00:12:01 [main] INFO  LeaveModuleTest - Launching browser: chrome
+2025-12-05 00:12:07 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:12:21 [main] INFO  LeaveModuleTest - Closing the browser
+2025-12-05 00:12:22 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
+2025-12-05 00:16:41 [main] INFO  LeaveModuleTest - =========== Test Started ===========
+2025-12-05 00:16:41 [main] INFO  LeaveModuleTest - Loaded config.properties
+2025-12-05 00:16:41 [main] INFO  LeaveModuleTest - Launching browser: chrome
+2025-12-05 00:16:46 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:17:14 [main] INFO  LeaveModuleTest - Closing the browser
+2025-12-05 00:17:15 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
+2025-12-05 00:19:16 [main] INFO  LeaveModuleTest - =========== Test Started ===========
+2025-12-05 00:19:16 [main] INFO  LeaveModuleTest - Loaded config.properties
+2025-12-05 00:19:16 [main] INFO  LeaveModuleTest - Launching browser: chrome
+2025-12-05 00:19:21 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:19:50 [main] INFO  LeaveModuleTest - Closing the browser
+2025-12-05 00:19:50 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
+2025-12-05 00:25:13 [main] INFO  LeaveModuleTest - =========== Test Started ===========
+2025-12-05 00:25:13 [main] INFO  LeaveModuleTest - Loaded config.properties
+2025-12-05 00:25:13 [main] INFO  LeaveModuleTest - Launching browser: chrome
+2025-12-05 00:25:19 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:25:45 [main] INFO  LeaveModuleTest - Closing the browser
+2025-12-05 00:25:45 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
+2025-12-05 00:27:05 [main] INFO  LeaveModuleTest - =========== Test Started ===========
+2025-12-05 00:27:05 [main] INFO  LeaveModuleTest - Loaded config.properties
+2025-12-05 00:27:05 [main] INFO  LeaveModuleTest - Launching browser: chrome
+2025-12-05 00:27:10 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 00:27:22 [main] INFO  LeaveModuleTest - Closing the browser
+2025-12-05 00:27:24 [main] INFO  LeaveModuleTest - =========== Test Finished ===========

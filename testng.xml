@@ -3,14 +3,12 @@
 <suite name="Suite">
 <listeners>
     <listener class-name="com.orangehrm.listeners.Listeners"/>
-    <listener class-name="com.orangehrm.tests.Listeners"/>
-    <listener class-name="com.orangehrm.listeners.RetryListener"/>
 </listeners>
 
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.orangehrm.tests.LoginTest"/>
-      <class name="com.orangehrm.tests.LoginTest"/>
+      <class name="com.orangehrm.tests.AddEmployeeTest"/>
       <class name="com.orangehrm.tests.AdminModuleTest"/>
       <class name="com.orangehrm.tests.LeaveModuleTest"/>
     </classes>
