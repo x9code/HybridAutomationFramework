@@ -325,7 +325,7 @@ public void onTestFailure(ITestResult result) {
 Automation Tester | Java | Selenium | TestNG
 
 [![GitHub](https://img.shields.io/badge/GitHub-x9code-black?logo=github)](https://github.com/x9code)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/your-profile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/deepak-6753z)
 
 ---
 
