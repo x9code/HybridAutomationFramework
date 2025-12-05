@@ -12,13 +12,18 @@ public class PIMPage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    // --- Locators ---
+    // ---------------------- MAIN MENU ----------------------
     @FindBy(xpath = "//span[text()='PIM']")
     WebElement pimMenu;
 
     @FindBy(xpath = "//a[text()='Add Employee']")
     WebElement addEmployeeTab;
 
+    @FindBy(xpath = "//a[text()='Employee List']")
+    WebElement employeeListTab;
+
+
+    // ---------------------- ADD EMPLOYEE ----------------------
     @FindBy(xpath = "//input[@name='firstName']")
     WebElement firstName;
 
@@ -33,78 +38,62 @@ public class PIMPage extends BasePage {
 
     @FindBy(xpath = "//div[contains(@class,'oxd-toast-content')]")
     WebElement successToast;
-    
-    @FindBy(xpath = "//a[text()='Employee List']")
-    WebElement employeeListMenu;
 
+
+
+    // ---------------------- SEARCH EMPLOYEE ----------------------
     @FindBy(xpath = "//input[@placeholder='Type for hints...']")
     WebElement employeeSearchField;
 
-    @FindBy(xpath = "//button[@type='submit']")
+    @FindBy(xpath = "//button[text()=' Search ']")
     WebElement searchButton;
 
     @FindBy(xpath = "//div[@class='oxd-table-card']")
-    WebElement resultRow;
-    
+    WebElement employeeRow;
+
+
+
+    // ---------------------- UPDATE EMPLOYEE ----------------------
+    @FindBy(name = "firstName")
+    WebElement nickNameInput;
+
+    @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
+    WebElement otherIdInput;
+
+
+    // ---------------------- DELETE EMPLOYEE ----------------------
     @FindBy(xpath = "//i[@class='oxd-icon bi-trash']")
     WebElement deleteIcon;
 
-    @FindBy(xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin']")
+    @FindBy(xpath = "//button[contains(@class,'label-danger')]")
     WebElement confirmDeleteBtn;
 
     @FindBy(xpath = "//div[contains(@class,'success')]")
     WebElement deleteSuccessToast;
 
-    public void deleteEmployee() {
-        click(deleteIcon);
-        click(confirmDeleteBtn);
-    }
-
-    public boolean isDeleteSuccessDisplayed() {
-        return isDisplayed(deleteSuccessToast);
-    }
 
 
-    public void goToEmployeeList() {
+    // ---------------------- ACTION METHODS ----------------------
+
+    // Navigate to PIM → Add Employee
+    public void goToPIM_AddEmployee() {
         click(pimMenu);
-        click(employeeListMenu);
-    }
-
-    public void searchEmployee(String name) {
-        type(employeeSearchField, name);
-        click(searchButton);
-    }
-
-    public boolean isSearchResultDisplayed() {
-        return isDisplayed(resultRow);
-    }
-
-
-    // ---------- Page Actions ----------
-
-    // Navigate to PIM module
-    public void goToPIM() {
-        click(pimMenu);
-        wait(1);
         click(addEmployeeTab);
     }
 
-    // Add employee with waits + scroll into view
-    public void addEmployee(String fName, String mName, String lName) {
-
+    // Add Employee
+    public void addEmployee(String f, String m, String l) {
         waitForVisibility(firstName, 10);
 
-        type(firstName, fName);
-        type(middleName, mName);
-        type(lastName, lName);
+        type(firstName, f);
+        type(middleName, m);
+        type(lastName, l);
 
         scrollToElement(saveBtn);
-        wait(1);
-
         click(saveBtn);
     }
 
-    // Validate the success toast message
+    // Check if employee is added
     public boolean isEmployeeAdded() {
         try {
             waitForVisibility(successToast, 10);
@@ -112,5 +101,45 @@ public class PIMPage extends BasePage {
         } catch (Exception e) {
             return false;
         }
+    }
+
+    // Navigate to PIM → Employee List
+    public void goToEmployeeList() {
+        click(pimMenu);
+        click(employeeListTab);
+    }
+
+    // Search Employee
+    public void searchEmployee(String name) {
+        type(employeeSearchField, name);
+        click(searchButton);
+        waitForVisibility(employeeRow, 5);
+    }
+
+    // Open Employee Record
+    public void openEmployeeFromList() {
+        click(employeeRow);
+    }
+
+    // Update Employee Details
+    public void updateEmployeeDetails(String nick, String id) {
+        clearAndType(nickNameInput, nick);
+        clearAndType(otherIdInput, id);
+
+        click(saveBtn);
+    }
+
+    public boolean isUpdateSuccessful() {
+        return isDisplayed(successToast);
+    }
+
+    // Delete Employee
+    public void deleteEmployee() {
+        click(deleteIcon);
+        click(confirmDeleteBtn);
+    }
+
+    public boolean isDeleteSuccessDisplayed() {
+        return isDisplayed(deleteSuccessToast);
     }
 }

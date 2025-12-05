@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-05T23:26:32 IST" name="Default suite" finished-at="2025-12-05T23:26:45 IST" duration-ms="13539">
+  <suite started-at="2025-12-05T23:40:41 IST" name="Default suite" finished-at="2025-12-05T23:40:56 IST" duration-ms="14245">
     <groups>
     </groups>
-    <test started-at="2025-12-05T23:26:32 IST" name="Default test" finished-at="2025-12-05T23:26:45 IST" duration-ms="13539">
-      <class name="com.orangehrm.tests.DeleteEmployeeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.DeleteEmployeeTest@2002fc1d]" started-at="2025-12-05T23:26:32 IST" name="setUp" finished-at="2025-12-05T23:26:37 IST" duration-ms="5380" status="PASS">
+    <test started-at="2025-12-05T23:40:41 IST" name="Default test" finished-at="2025-12-05T23:40:56 IST" duration-ms="14245">
+      <class name="com.orangehrm.tests.UpdateEmployeeDetailsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.tests.UpdateEmployeeDetailsTest@2002fc1d]" started-at="2025-12-05T23:40:41 IST" name="setUp" finished-at="2025-12-05T23:40:47 IST" duration-ms="5926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDeleteEmployee()[pri:0, instance:com.orangehrm.tests.DeleteEmployeeTest@2002fc1d]" started-at="2025-12-05T23:26:37 IST" name="verifyDeleteEmployee" finished-at="2025-12-05T23:26:45 IST" duration-ms="7919" status="PASS">
+        <test-method signature="verifyUpdateEmployeeDetails()[pri:0, instance:com.orangehrm.tests.UpdateEmployeeDetailsTest@2002fc1d]" started-at="2025-12-05T23:40:47 IST" name="verifyUpdateEmployeeDetails" finished-at="2025-12-05T23:40:55 IST" duration-ms="8022" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDeleteEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.DeleteEmployeeTest@2002fc1d]" started-at="2025-12-05T23:26:45 IST" name="tearDown" finished-at="2025-12-05T23:26:45 IST" duration-ms="185" status="PASS">
+        </test-method> <!-- verifyUpdateEmployeeDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.UpdateEmployeeDetailsTest@2002fc1d]" started-at="2025-12-05T23:40:55 IST" name="tearDown" finished-at="2025-12-05T23:40:56 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.tests.DeleteEmployeeTest -->
+      </class> <!-- com.orangehrm.tests.UpdateEmployeeDetailsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
