@@ -90,3 +90,32 @@
 2025-12-05 00:27:10 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
 2025-12-05 00:27:22 [main] INFO  LeaveModuleTest - Closing the browser
 2025-12-05 00:27:24 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
+2025-12-05 22:49:56 [main] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-05 22:49:56 [main] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-05 22:49:56 [main] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-05 22:50:02 [main] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 22:50:02 [main] INFO  InvalidLoginTest - 🔹 Attempting login with invalid credentials
+2025-12-05 22:50:14 [main] INFO  InvalidLoginTest - Closing the browser
+2025-12-05 22:50:14 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
+2025-12-05 22:52:49 [main] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-05 22:52:49 [main] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-05 22:52:49 [main] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-05 22:52:54 [main] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 22:52:54 [main] INFO  InvalidLoginTest - Attempting login with invalid credentials
+2025-12-05 22:53:05 [main] INFO  InvalidLoginTest - Closing the browser
+2025-12-05 22:53:05 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
+2025-12-05 22:53:38 [main] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-05 22:53:38 [main] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-05 22:53:38 [main] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-05 22:53:44 [main] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 22:53:44 [main] INFO  InvalidLoginTest - Attempting login with invalid credentials
+2025-12-05 22:53:58 [main] INFO  InvalidLoginTest - Closing the browser
+2025-12-05 22:53:58 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
+2025-12-05 22:56:32 [main] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-05 22:56:32 [main] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-05 22:56:32 [main] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-05 22:56:39 [main] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 22:56:39 [main] INFO  InvalidLoginTest - Attempting login with invalid credentials
+2025-12-05 22:56:42 [main] INFO  InvalidLoginTest - Invalid login message successfully verified
+2025-12-05 22:56:42 [main] INFO  InvalidLoginTest - Closing the browser
+2025-12-05 22:56:42 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
