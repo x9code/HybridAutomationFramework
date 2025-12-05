@@ -193,3 +193,28 @@
 2025-12-05 23:14:21 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
 2025-12-05 23:14:21 [main] INFO  SearchEmployeeTest - Closing the browser
 2025-12-05 23:14:21 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
+2025-12-05 23:17:41 [main] INFO  DeleteEmployeeTest - =========== Test Started ===========
+2025-12-05 23:17:41 [main] INFO  DeleteEmployeeTest - Loaded config.properties
+2025-12-05 23:17:41 [main] INFO  DeleteEmployeeTest - Launching browser: chrome
+2025-12-05 23:17:46 [main] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 23:18:03 [main] INFO  DeleteEmployeeTest - Closing the browser
+2025-12-05 23:18:03 [main] INFO  DeleteEmployeeTest - =========== Test Finished ===========
+2025-12-05 23:20:48 [main] INFO  DeleteEmployeeTest - =========== Test Started ===========
+2025-12-05 23:20:48 [main] INFO  DeleteEmployeeTest - Loaded config.properties
+2025-12-05 23:20:48 [main] INFO  DeleteEmployeeTest - Launching browser: chrome
+2025-12-05 23:21:02 [main] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 23:21:26 [main] INFO  DeleteEmployeeTest - Closing the browser
+2025-12-05 23:21:26 [main] INFO  DeleteEmployeeTest - =========== Test Finished ===========
+2025-12-05 23:22:12 [main] INFO  DeleteEmployeeTest - =========== Test Started ===========
+2025-12-05 23:22:12 [main] INFO  DeleteEmployeeTest - Loaded config.properties
+2025-12-05 23:22:12 [main] INFO  DeleteEmployeeTest - Launching browser: chrome
+2025-12-05 23:22:17 [main] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 23:22:34 [main] INFO  DeleteEmployeeTest - Closing the browser
+2025-12-05 23:22:34 [main] INFO  DeleteEmployeeTest - =========== Test Finished ===========
+2025-12-05 23:26:32 [main] INFO  DeleteEmployeeTest - =========== Test Started ===========
+2025-12-05 23:26:32 [main] INFO  DeleteEmployeeTest - Loaded config.properties
+2025-12-05 23:26:32 [main] INFO  DeleteEmployeeTest - Launching browser: chrome
+2025-12-05 23:26:37 [main] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 23:26:45 [main] INFO  DeleteEmployeeTest - 🗑 Employee deleted successfully
+2025-12-05 23:26:45 [main] INFO  DeleteEmployeeTest - Closing the browser
+2025-12-05 23:26:45 [main] INFO  DeleteEmployeeTest - =========== Test Finished ===========

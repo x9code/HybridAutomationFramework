@@ -45,6 +45,25 @@ public class PIMPage extends BasePage {
 
     @FindBy(xpath = "//div[@class='oxd-table-card']")
     WebElement resultRow;
+    
+    @FindBy(xpath = "//i[@class='oxd-icon bi-trash']")
+    WebElement deleteIcon;
+
+    @FindBy(xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin']")
+    WebElement confirmDeleteBtn;
+
+    @FindBy(xpath = "//div[contains(@class,'success')]")
+    WebElement deleteSuccessToast;
+
+    public void deleteEmployee() {
+        click(deleteIcon);
+        click(confirmDeleteBtn);
+    }
+
+    public boolean isDeleteSuccessDisplayed() {
+        return isDisplayed(deleteSuccessToast);
+    }
+
 
     public void goToEmployeeList() {
         click(pimMenu);
