@@ -119,3 +119,77 @@
 2025-12-05 22:56:42 [main] INFO  InvalidLoginTest - Invalid login message successfully verified
 2025-12-05 22:56:42 [main] INFO  InvalidLoginTest - Closing the browser
 2025-12-05 22:56:42 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
+2025-12-05 23:03:13 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
+2025-12-05 23:03:13 [main] INFO  SearchEmployeeTest - Loaded config.properties
+2025-12-05 23:03:13 [main] INFO  SearchEmployeeTest - Launching browser: chrome
+2025-12-05 23:03:19 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 23:03:26 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
+2025-12-05 23:03:26 [main] INFO  SearchEmployeeTest - Closing the browser
+2025-12-05 23:03:26 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
+2025-12-05 23:07:22 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
+2025-12-05 23:07:22 [main] INFO  SearchEmployeeTest - Loaded config.properties
+2025-12-05 23:07:22 [main] INFO  SearchEmployeeTest - Launching browser: chrome
+2025-12-05 23:07:28 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 23:07:36 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
+2025-12-05 23:07:36 [main] INFO  SearchEmployeeTest - Closing the browser
+2025-12-05 23:07:36 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-05 23:10:23 [main] INFO  Utils - [TestNG] Running:
+  C:\Users\91707\AppData\Local\Temp\testng-eclipse--822418211\testng-customsuite.xml
+
+2025-12-05 23:10:23 [main] INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-12-05 23:10:23 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
+2025-12-05 23:10:23 [main] INFO  SearchEmployeeTest - Loaded config.properties
+2025-12-05 23:10:23 [main] INFO  SearchEmployeeTest - Launching browser: chrome
+2025-12-05 23:10:30 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 23:10:37 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
+2025-12-05 23:10:37 [main] INFO  SearchEmployeeTest - Closing the browser
+2025-12-05 23:10:37 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
+2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@35ff8fc9: 66 ms
+2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5f80fa43: 1 ms
+2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7e75bf2d: 7 ms
+2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@22bd2039: 7 ms
+2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2679311f: 8 ms
+2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@287f7811: 1 ms
+2025-12-05 23:11:51 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
+2025-12-05 23:11:51 [main] INFO  SearchEmployeeTest - Loaded config.properties
+2025-12-05 23:11:51 [main] INFO  SearchEmployeeTest - Launching browser: chrome
+2025-12-05 23:11:56 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 23:12:13 [main] INFO  SearchEmployeeTest - Closing the browser
+2025-12-05 23:12:13 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
+2025-12-05 23:14:08 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
+2025-12-05 23:14:08 [main] INFO  SearchEmployeeTest - Loaded config.properties
+2025-12-05 23:14:08 [main] INFO  SearchEmployeeTest - Launching browser: chrome
+2025-12-05 23:14:14 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-05 23:14:21 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
+2025-12-05 23:14:21 [main] INFO  SearchEmployeeTest - Closing the browser
+2025-12-05 23:14:21 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========

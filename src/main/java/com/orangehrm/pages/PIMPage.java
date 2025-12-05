@@ -33,6 +33,33 @@ public class PIMPage extends BasePage {
 
     @FindBy(xpath = "//div[contains(@class,'oxd-toast-content')]")
     WebElement successToast;
+    
+    @FindBy(xpath = "//a[text()='Employee List']")
+    WebElement employeeListMenu;
+
+    @FindBy(xpath = "//input[@placeholder='Type for hints...']")
+    WebElement employeeSearchField;
+
+    @FindBy(xpath = "//button[@type='submit']")
+    WebElement searchButton;
+
+    @FindBy(xpath = "//div[@class='oxd-table-card']")
+    WebElement resultRow;
+
+    public void goToEmployeeList() {
+        click(pimMenu);
+        click(employeeListMenu);
+    }
+
+    public void searchEmployee(String name) {
+        type(employeeSearchField, name);
+        click(searchButton);
+    }
+
+    public boolean isSearchResultDisplayed() {
+        return isDisplayed(resultRow);
+    }
+
 
     // ---------- Page Actions ----------
 

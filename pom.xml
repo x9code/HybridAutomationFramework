@@ -13,7 +13,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.34.0</version>
+            <version>4.38.0</version>
         </dependency>
 
         <!-- WebDriverManager -->
@@ -31,7 +31,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Apache POI (Excel) -->
+        <!-- Apache POI -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -55,9 +55,15 @@
             <version>2.25.2</version>
         </dependency>
 
+        <!-- SLF4J → Log4j2 Bridge (Fixes SLF4J Warnings) -->
+       <!--  <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j2-impl</artifactId>
+            <version>2.25.2</version>
+        </dependency>
+        -->
     </dependencies>
 
-    <!-- TestNG Execution -->
     <build>
         <plugins>
             <plugin>
