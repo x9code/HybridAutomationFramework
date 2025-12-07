@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.orangehrm.tests.LeaveModuleTest">
+      <class name="com.orangehrm.tests.UpdateEmployeeDetailsTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyApplyLeave"/>
+          <include name="verifyUpdateEmployeeDetails"/>
         </methods>
-      </class> <!-- com.orangehrm.tests.LeaveModuleTest -->
+      </class> <!-- com.orangehrm.tests.UpdateEmployeeDetailsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

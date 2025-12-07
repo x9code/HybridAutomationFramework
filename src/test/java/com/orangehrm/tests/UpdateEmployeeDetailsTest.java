@@ -17,10 +17,10 @@ public class UpdateEmployeeDetailsTest extends BaseClass {
         PIMPage pim = new PIMPage(driver);
 
         pim.goToEmployeeList();
-        pim.searchEmployee("Deepak");   // Replace dynamically later
+        pim.searchEmployee("Deepak");  
         pim.openEmployeeFromList();
 
-        pim.updateEmployeeDetails("DK", "12345");
+        pim.updateEmployeeDetails("Dr. Pepper", "123555");
 
         Assert.assertTrue(pim.isUpdateSuccessful(),
                 "❌ Employee details not updated!");

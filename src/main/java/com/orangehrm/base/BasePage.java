@@ -23,6 +23,12 @@ public class BasePage {
         element.clear();
         element.sendKeys(text);
     }
+    public void waitForURLContains(String partialURL, int timeout) {
+        new WebDriverWait(driver, Duration.ofSeconds(timeout))
+                .until(ExpectedConditions.urlContains(partialURL));
+    }
+    
+
 
     // Check if displayed
     public boolean isDisplayed(WebElement element) {
@@ -60,6 +66,15 @@ public class BasePage {
         element.sendKeys(Keys.CONTROL + "a");
         element.sendKeys(Keys.DELETE);
     }
+    public void jsClick(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", element);
+    }
+    public void waitForElementClickable(WebElement element, int timeout) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+
 
 
     public void wait(int seconds) {

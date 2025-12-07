@@ -24,11 +24,11 @@ public class AddEmployeeTest extends BaseClass {
 
         // Navigate to PIM
         PIMPage pim = new PIMPage(driver);
-        pim.goToPIM();
+        pim.goToPIM_AddEmployee();
         logger.info("Navigated to PIM module");
 
         // Add employee
-        pim.addEmployee("Deepak", "Kumar", "Rana");
+        pim.addEmployee("Deepak", "Kumar", "Rrna");
         logger.info("Filled employee details & clicked Save");
 
         // Validate

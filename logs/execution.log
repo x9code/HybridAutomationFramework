@@ -1,232 +1,314 @@
-2025-12-05 00:04:23 [main] INFO  Listeners - ===== Test Suite Started =====
-2025-12-05 00:04:23 [main] INFO  LoginTest - =========== Test Started ===========
-2025-12-05 00:04:23 [main] INFO  LoginTest - Loaded config.properties
-2025-12-05 00:04:23 [main] INFO  LoginTest - Launching browser: chrome
-2025-12-05 00:04:29 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:04:29 [main] INFO  Listeners - 🟦 Test Started: verifyValidLogin
-2025-12-05 00:04:29 [main] INFO  LoginTest - ----- Starting Login Test -----
-2025-12-05 00:04:30 [main] INFO  LoginTest - Entered username and password
-2025-12-05 00:04:32 [main] INFO  LoginTest - ✅ Login successful → Dashboard visible
-2025-12-05 00:04:32 [main] INFO  Listeners - ✅ Test Passed: verifyValidLogin
-2025-12-05 00:04:32 [main] INFO  LoginTest - Closing the browser
-2025-12-05 00:04:32 [main] INFO  LoginTest - =========== Test Finished ===========
-2025-12-05 00:04:32 [main] INFO  AddEmployeeTest - =========== Test Started ===========
-2025-12-05 00:04:32 [main] INFO  AddEmployeeTest - Loaded config.properties
-2025-12-05 00:04:32 [main] INFO  AddEmployeeTest - Launching browser: chrome
-2025-12-05 00:04:37 [main] INFO  AddEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:04:37 [main] INFO  Listeners - 🟦 Test Started: verifyAddEmployee
-2025-12-05 00:04:37 [main] INFO  AddEmployeeTest - === Starting Add Employee Test ===
-2025-12-05 00:04:38 [main] INFO  AddEmployeeTest - Logged in successfully
-2025-12-05 00:04:39 [main] INFO  AddEmployeeTest - Dashboard displayed
-2025-12-05 00:04:42 [main] INFO  AddEmployeeTest - Navigated to PIM module
-2025-12-05 00:04:44 [main] INFO  AddEmployeeTest - Filled employee details & clicked Save
-2025-12-05 00:04:46 [main] INFO  AddEmployeeTest - ✅ Employee added successfully!
-2025-12-05 00:04:46 [main] INFO  Listeners - ✅ Test Passed: verifyAddEmployee
-2025-12-05 00:04:46 [main] INFO  AddEmployeeTest - Closing the browser
-2025-12-05 00:04:46 [main] INFO  AddEmployeeTest - =========== Test Finished ===========
-2025-12-05 00:04:46 [main] INFO  AdminModuleTest - =========== Test Started ===========
-2025-12-05 00:04:46 [main] INFO  AdminModuleTest - Loaded config.properties
-2025-12-05 00:04:46 [main] INFO  AdminModuleTest - Launching browser: chrome
-2025-12-05 00:04:50 [main] INFO  AdminModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:04:50 [main] INFO  Listeners - 🟦 Test Started: verifySearchUser
-2025-12-05 00:04:50 [main] INFO  AdminModuleTest - ===== Starting Admin Module Test =====
-2025-12-05 00:04:51 [main] INFO  AdminModuleTest - Logged in successfully
-2025-12-05 00:04:54 [main] INFO  AdminModuleTest - Navigated to Admin module
-2025-12-05 00:04:55 [main] INFO  AdminModuleTest - Searched for user: Admin
-2025-12-05 00:04:55 [main] INFO  AdminModuleTest - ✅ Admin user found successfully
-2025-12-05 00:04:55 [main] INFO  Listeners - ✅ Test Passed: verifySearchUser
-2025-12-05 00:04:55 [main] INFO  AdminModuleTest - Closing the browser
-2025-12-05 00:04:55 [main] INFO  AdminModuleTest - =========== Test Finished ===========
-2025-12-05 00:04:55 [main] INFO  LeaveModuleTest - =========== Test Started ===========
-2025-12-05 00:04:55 [main] INFO  LeaveModuleTest - Loaded config.properties
-2025-12-05 00:04:55 [main] INFO  LeaveModuleTest - Launching browser: chrome
-2025-12-05 00:05:00 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:05:00 [main] INFO  Listeners - 🟦 Test Started: verifyApplyLeave
-2025-12-05 00:05:00 [main] ERROR Listeners - ❌ Test Failed: verifyApplyLeave
-2025-12-05 00:05:00 [main] INFO  ScreenshotUtil - Screenshot saved successfully: ./screenshots/verifyApplyLeave_20251205_000500.png
-2025-12-05 00:05:00 [main] INFO  Listeners - 📸 Screenshot captured at: ./screenshots/verifyApplyLeave_20251205_000500.png
-2025-12-05 00:05:00 [main] INFO  LeaveModuleTest - Closing the browser
-2025-12-05 00:05:00 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
-2025-12-05 00:05:00 [main] INFO  Listeners - ===== Test Suite Finished =====
-2025-12-05 00:06:36 [main] INFO  LeaveModuleTest - =========== Test Started ===========
-2025-12-05 00:06:36 [main] INFO  LeaveModuleTest - Loaded config.properties
-2025-12-05 00:06:36 [main] INFO  LeaveModuleTest - Launching browser: chrome
-2025-12-05 00:06:43 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:06:43 [main] INFO  LeaveModuleTest - Closing the browser
-2025-12-05 00:06:43 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
-2025-12-05 00:09:14 [main] INFO  LeaveModuleTest - =========== Test Started ===========
-2025-12-05 00:09:14 [main] INFO  LeaveModuleTest - Loaded config.properties
-2025-12-05 00:09:14 [main] INFO  LeaveModuleTest - Launching browser: chrome
-2025-12-05 00:09:23 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:09:41 [main] INFO  LeaveModuleTest - Closing the browser
-2025-12-05 00:09:41 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
-2025-12-05 00:12:01 [main] INFO  LeaveModuleTest - =========== Test Started ===========
-2025-12-05 00:12:01 [main] INFO  LeaveModuleTest - Loaded config.properties
-2025-12-05 00:12:01 [main] INFO  LeaveModuleTest - Launching browser: chrome
-2025-12-05 00:12:07 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:12:21 [main] INFO  LeaveModuleTest - Closing the browser
-2025-12-05 00:12:22 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
-2025-12-05 00:16:41 [main] INFO  LeaveModuleTest - =========== Test Started ===========
-2025-12-05 00:16:41 [main] INFO  LeaveModuleTest - Loaded config.properties
-2025-12-05 00:16:41 [main] INFO  LeaveModuleTest - Launching browser: chrome
-2025-12-05 00:16:46 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:17:14 [main] INFO  LeaveModuleTest - Closing the browser
-2025-12-05 00:17:15 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
-2025-12-05 00:19:16 [main] INFO  LeaveModuleTest - =========== Test Started ===========
-2025-12-05 00:19:16 [main] INFO  LeaveModuleTest - Loaded config.properties
-2025-12-05 00:19:16 [main] INFO  LeaveModuleTest - Launching browser: chrome
-2025-12-05 00:19:21 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:19:50 [main] INFO  LeaveModuleTest - Closing the browser
-2025-12-05 00:19:50 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
-2025-12-05 00:25:13 [main] INFO  LeaveModuleTest - =========== Test Started ===========
-2025-12-05 00:25:13 [main] INFO  LeaveModuleTest - Loaded config.properties
-2025-12-05 00:25:13 [main] INFO  LeaveModuleTest - Launching browser: chrome
-2025-12-05 00:25:19 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:25:45 [main] INFO  LeaveModuleTest - Closing the browser
-2025-12-05 00:25:45 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
-2025-12-05 00:27:05 [main] INFO  LeaveModuleTest - =========== Test Started ===========
-2025-12-05 00:27:05 [main] INFO  LeaveModuleTest - Loaded config.properties
-2025-12-05 00:27:05 [main] INFO  LeaveModuleTest - Launching browser: chrome
-2025-12-05 00:27:10 [main] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 00:27:22 [main] INFO  LeaveModuleTest - Closing the browser
-2025-12-05 00:27:24 [main] INFO  LeaveModuleTest - =========== Test Finished ===========
-2025-12-05 22:49:56 [main] INFO  InvalidLoginTest - =========== Test Started ===========
-2025-12-05 22:49:56 [main] INFO  InvalidLoginTest - Loaded config.properties
-2025-12-05 22:49:56 [main] INFO  InvalidLoginTest - Launching browser: chrome
-2025-12-05 22:50:02 [main] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 22:50:02 [main] INFO  InvalidLoginTest - 🔹 Attempting login with invalid credentials
-2025-12-05 22:50:14 [main] INFO  InvalidLoginTest - Closing the browser
-2025-12-05 22:50:14 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
-2025-12-05 22:52:49 [main] INFO  InvalidLoginTest - =========== Test Started ===========
-2025-12-05 22:52:49 [main] INFO  InvalidLoginTest - Loaded config.properties
-2025-12-05 22:52:49 [main] INFO  InvalidLoginTest - Launching browser: chrome
-2025-12-05 22:52:54 [main] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 22:52:54 [main] INFO  InvalidLoginTest - Attempting login with invalid credentials
-2025-12-05 22:53:05 [main] INFO  InvalidLoginTest - Closing the browser
-2025-12-05 22:53:05 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
-2025-12-05 22:53:38 [main] INFO  InvalidLoginTest - =========== Test Started ===========
-2025-12-05 22:53:38 [main] INFO  InvalidLoginTest - Loaded config.properties
-2025-12-05 22:53:38 [main] INFO  InvalidLoginTest - Launching browser: chrome
-2025-12-05 22:53:44 [main] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 22:53:44 [main] INFO  InvalidLoginTest - Attempting login with invalid credentials
-2025-12-05 22:53:58 [main] INFO  InvalidLoginTest - Closing the browser
-2025-12-05 22:53:58 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
-2025-12-05 22:56:32 [main] INFO  InvalidLoginTest - =========== Test Started ===========
-2025-12-05 22:56:32 [main] INFO  InvalidLoginTest - Loaded config.properties
-2025-12-05 22:56:32 [main] INFO  InvalidLoginTest - Launching browser: chrome
-2025-12-05 22:56:39 [main] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 22:56:39 [main] INFO  InvalidLoginTest - Attempting login with invalid credentials
-2025-12-05 22:56:42 [main] INFO  InvalidLoginTest - Invalid login message successfully verified
-2025-12-05 22:56:42 [main] INFO  InvalidLoginTest - Closing the browser
-2025-12-05 22:56:42 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
-2025-12-05 23:03:13 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
-2025-12-05 23:03:13 [main] INFO  SearchEmployeeTest - Loaded config.properties
-2025-12-05 23:03:13 [main] INFO  SearchEmployeeTest - Launching browser: chrome
-2025-12-05 23:03:19 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:03:26 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
-2025-12-05 23:03:26 [main] INFO  SearchEmployeeTest - Closing the browser
-2025-12-05 23:03:26 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
-2025-12-05 23:07:22 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
-2025-12-05 23:07:22 [main] INFO  SearchEmployeeTest - Loaded config.properties
-2025-12-05 23:07:22 [main] INFO  SearchEmployeeTest - Launching browser: chrome
-2025-12-05 23:07:28 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:07:36 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
-2025-12-05 23:07:36 [main] INFO  SearchEmployeeTest - Closing the browser
-2025-12-05 23:07:36 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-05 23:10:23 [main] INFO  Utils - [TestNG] Running:
-  C:\Users\91707\AppData\Local\Temp\testng-eclipse--822418211\testng-customsuite.xml
-
-2025-12-05 23:10:23 [main] INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
-2025-12-05 23:10:23 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
-2025-12-05 23:10:23 [main] INFO  SearchEmployeeTest - Loaded config.properties
-2025-12-05 23:10:23 [main] INFO  SearchEmployeeTest - Launching browser: chrome
-2025-12-05 23:10:30 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:10:37 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
-2025-12-05 23:10:37 [main] INFO  SearchEmployeeTest - Closing the browser
-2025-12-05 23:10:37 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
-2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@35ff8fc9: 66 ms
-2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5f80fa43: 1 ms
-2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7e75bf2d: 7 ms
-2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@22bd2039: 7 ms
-2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2679311f: 8 ms
-2025-12-05 23:10:37 [main] INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@287f7811: 1 ms
-2025-12-05 23:11:51 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
-2025-12-05 23:11:51 [main] INFO  SearchEmployeeTest - Loaded config.properties
-2025-12-05 23:11:51 [main] INFO  SearchEmployeeTest - Launching browser: chrome
-2025-12-05 23:11:56 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:12:13 [main] INFO  SearchEmployeeTest - Closing the browser
-2025-12-05 23:12:13 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
-2025-12-05 23:14:08 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
-2025-12-05 23:14:08 [main] INFO  SearchEmployeeTest - Loaded config.properties
-2025-12-05 23:14:08 [main] INFO  SearchEmployeeTest - Launching browser: chrome
-2025-12-05 23:14:14 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:14:21 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
-2025-12-05 23:14:21 [main] INFO  SearchEmployeeTest - Closing the browser
-2025-12-05 23:14:21 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
-2025-12-05 23:17:41 [main] INFO  DeleteEmployeeTest - =========== Test Started ===========
-2025-12-05 23:17:41 [main] INFO  DeleteEmployeeTest - Loaded config.properties
-2025-12-05 23:17:41 [main] INFO  DeleteEmployeeTest - Launching browser: chrome
-2025-12-05 23:17:46 [main] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:18:03 [main] INFO  DeleteEmployeeTest - Closing the browser
-2025-12-05 23:18:03 [main] INFO  DeleteEmployeeTest - =========== Test Finished ===========
-2025-12-05 23:20:48 [main] INFO  DeleteEmployeeTest - =========== Test Started ===========
-2025-12-05 23:20:48 [main] INFO  DeleteEmployeeTest - Loaded config.properties
-2025-12-05 23:20:48 [main] INFO  DeleteEmployeeTest - Launching browser: chrome
-2025-12-05 23:21:02 [main] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:21:26 [main] INFO  DeleteEmployeeTest - Closing the browser
-2025-12-05 23:21:26 [main] INFO  DeleteEmployeeTest - =========== Test Finished ===========
-2025-12-05 23:22:12 [main] INFO  DeleteEmployeeTest - =========== Test Started ===========
-2025-12-05 23:22:12 [main] INFO  DeleteEmployeeTest - Loaded config.properties
-2025-12-05 23:22:12 [main] INFO  DeleteEmployeeTest - Launching browser: chrome
-2025-12-05 23:22:17 [main] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:22:34 [main] INFO  DeleteEmployeeTest - Closing the browser
-2025-12-05 23:22:34 [main] INFO  DeleteEmployeeTest - =========== Test Finished ===========
-2025-12-05 23:26:32 [main] INFO  DeleteEmployeeTest - =========== Test Started ===========
-2025-12-05 23:26:32 [main] INFO  DeleteEmployeeTest - Loaded config.properties
-2025-12-05 23:26:32 [main] INFO  DeleteEmployeeTest - Launching browser: chrome
-2025-12-05 23:26:37 [main] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:26:45 [main] INFO  DeleteEmployeeTest - 🗑 Employee deleted successfully
-2025-12-05 23:26:45 [main] INFO  DeleteEmployeeTest - Closing the browser
-2025-12-05 23:26:45 [main] INFO  DeleteEmployeeTest - =========== Test Finished ===========
-2025-12-05 23:35:59 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Started ===========
-2025-12-05 23:35:59 [main] INFO  UpdateEmployeeDetailsTest - Loaded config.properties
-2025-12-05 23:35:59 [main] INFO  UpdateEmployeeDetailsTest - Launching browser: chrome
-2025-12-05 23:36:05 [main] INFO  UpdateEmployeeDetailsTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:36:21 [main] INFO  UpdateEmployeeDetailsTest - Closing the browser
-2025-12-05 23:36:21 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Finished ===========
-2025-12-05 23:40:42 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Started ===========
-2025-12-05 23:40:42 [main] INFO  UpdateEmployeeDetailsTest - Loaded config.properties
-2025-12-05 23:40:42 [main] INFO  UpdateEmployeeDetailsTest - Launching browser: chrome
-2025-12-05 23:40:47 [main] INFO  UpdateEmployeeDetailsTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
-2025-12-05 23:40:55 [main] INFO  UpdateEmployeeDetailsTest - Closing the browser
-2025-12-05 23:40:56 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Finished ===========
+2025-12-07 10:56:54 [main] INFO  SearchCandidateTest - =========== Test Started ===========
+2025-12-07 10:56:54 [main] INFO  SearchCandidateTest - Loaded config.properties
+2025-12-07 10:56:54 [main] INFO  SearchCandidateTest - Launching browser: chrome
+2025-12-07 10:57:03 [main] INFO  SearchCandidateTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 10:57:03 [main] INFO  SearchCandidateTest - ===== Test Started: Search Candidate =====
+2025-12-07 10:57:04 [main] INFO  SearchCandidateTest - Logged in successfully
+2025-12-07 10:57:28 [main] INFO  SearchCandidateTest - Closing the browser
+2025-12-07 10:57:29 [main] INFO  SearchCandidateTest - =========== Test Finished ===========
+2025-12-07 11:05:54 [main] INFO  SearchCandidateTest - =========== Test Started ===========
+2025-12-07 11:05:54 [main] INFO  SearchCandidateTest - Loaded config.properties
+2025-12-07 11:05:54 [main] INFO  SearchCandidateTest - Launching browser: chrome
+2025-12-07 11:06:03 [main] INFO  SearchCandidateTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:06:03 [main] INFO  SearchCandidateTest - ===== Test Started: Search Candidate =====
+2025-12-07 11:06:04 [main] INFO  SearchCandidateTest - Logged in successfully
+2025-12-07 11:06:09 [main] INFO  SearchCandidateTest - Navigated to Recruitment → Candidates
+2025-12-07 11:06:09 [main] INFO  SearchCandidateTest - Candidate search performed for: John Doe
+2025-12-07 11:06:09 [main] INFO  SearchCandidateTest - ✔ Candidate search test passed!
+2025-12-07 11:06:09 [main] INFO  SearchCandidateTest - ===== Test Finished: Search Candidate =====
+2025-12-07 11:06:09 [main] INFO  SearchCandidateTest - Closing the browser
+2025-12-07 11:06:10 [main] INFO  SearchCandidateTest - =========== Test Finished ===========
+2025-12-07 11:24:31 [main] INFO  AddCandidateTest - =========== Test Started ===========
+2025-12-07 11:24:31 [main] INFO  AddCandidateTest - Loaded config.properties
+2025-12-07 11:24:31 [main] INFO  AddCandidateTest - Launching browser: chrome
+2025-12-07 11:24:36 [main] INFO  AddCandidateTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:24:36 [main] INFO  AddCandidateTest - ===== Test Started: Add Candidate =====
+2025-12-07 11:24:37 [main] INFO  AddCandidateTest - Logged in successfully
+2025-12-07 11:24:41 [main] INFO  AddCandidateTest - Navigated to Recruitment
+2025-12-07 11:24:43 [main] INFO  AddCandidateTest - Navigated to Candidates section
+2025-12-07 11:24:45 [main] INFO  AddCandidateTest - Opened Add Candidate form
+2025-12-07 11:24:45 [main] INFO  AddCandidateTest - Filled candidate details
+2025-12-07 11:24:45 [main] INFO  AddCandidateTest - Closing the browser
+2025-12-07 11:24:45 [main] INFO  AddCandidateTest - =========== Test Finished ===========
+2025-12-07 11:29:07 [main] INFO  AddCandidateTest - =========== Test Started ===========
+2025-12-07 11:29:07 [main] INFO  AddCandidateTest - Loaded config.properties
+2025-12-07 11:29:07 [main] INFO  AddCandidateTest - Launching browser: chrome
+2025-12-07 11:29:13 [main] INFO  AddCandidateTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:29:13 [main] INFO  AddCandidateTest - ===== Test Started: Add Candidate =====
+2025-12-07 11:29:14 [main] INFO  AddCandidateTest - Logged in successfully
+2025-12-07 11:29:18 [main] INFO  AddCandidateTest - Navigated to Recruitment
+2025-12-07 11:29:20 [main] INFO  AddCandidateTest - Navigated to Candidates section
+2025-12-07 11:29:22 [main] INFO  AddCandidateTest - Opened Add Candidate form
+2025-12-07 11:29:22 [main] INFO  AddCandidateTest - Filled candidate details
+2025-12-07 11:29:23 [main] INFO  AddCandidateTest - Uploaded resume
+2025-12-07 11:29:23 [main] INFO  AddCandidateTest - Clicked Save
+2025-12-07 11:29:25 [main] INFO  AddCandidateTest - ✅ Candidate added successfully!
+2025-12-07 11:29:25 [main] INFO  AddCandidateTest - Closing the browser
+2025-12-07 11:29:25 [main] INFO  AddCandidateTest - =========== Test Finished ===========
+2025-12-07 11:31:04 [main] INFO  Listeners - ===== Test Suite Started =====
+2025-12-07 11:31:04 [main] INFO  LoginTest - =========== Test Started ===========
+2025-12-07 11:31:04 [main] INFO  LoginTest - Loaded config.properties
+2025-12-07 11:31:04 [main] INFO  LoginTest - Launching browser: chrome
+2025-12-07 11:31:11 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:31:11 [main] INFO  Listeners - 🟦 Test Started: verifyValidLogin
+2025-12-07 11:31:11 [main] INFO  LoginTest - ----- Starting Login Test -----
+2025-12-07 11:31:11 [main] INFO  LoginTest - Entered username and password
+2025-12-07 11:31:13 [main] INFO  LoginTest - ✅ Login successful → Dashboard visible
+2025-12-07 11:31:13 [main] INFO  Listeners - ✅ Test Passed: verifyValidLogin
+2025-12-07 11:31:13 [main] INFO  LoginTest - Closing the browser
+2025-12-07 11:31:13 [main] INFO  LoginTest - =========== Test Finished ===========
+2025-12-07 11:31:13 [main] INFO  AddEmployeeTest - =========== Test Started ===========
+2025-12-07 11:31:13 [main] INFO  AddEmployeeTest - Loaded config.properties
+2025-12-07 11:31:13 [main] INFO  AddEmployeeTest - Launching browser: chrome
+2025-12-07 11:31:18 [main] INFO  AddEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:31:18 [main] INFO  Listeners - 🟦 Test Started: verifyAddEmployee
+2025-12-07 11:31:18 [main] INFO  AddEmployeeTest - === Starting Add Employee Test ===
+2025-12-07 11:31:18 [main] INFO  AddEmployeeTest - Logged in successfully
+2025-12-07 11:31:20 [main] INFO  AddEmployeeTest - Dashboard displayed
+2025-12-07 11:31:22 [main] INFO  AddEmployeeTest - Navigated to PIM module
+2025-12-07 11:31:23 [main] INFO  AddEmployeeTest - Filled employee details & clicked Save
+2025-12-07 11:31:43 [main] ERROR Listeners - ❌ Test Failed: verifyAddEmployee
+2025-12-07 11:31:43 [main] INFO  ScreenshotUtil - Screenshot saved successfully: ./screenshots/verifyAddEmployee_20251207_113143.png
+2025-12-07 11:31:43 [main] INFO  Listeners - 📸 Screenshot captured at: ./screenshots/verifyAddEmployee_20251207_113143.png
+2025-12-07 11:31:43 [main] INFO  AddEmployeeTest - Closing the browser
+2025-12-07 11:31:44 [main] INFO  AddEmployeeTest - =========== Test Finished ===========
+2025-12-07 11:31:44 [main] INFO  AdminModuleTest - =========== Test Started ===========
+2025-12-07 11:31:44 [main] INFO  AdminModuleTest - Loaded config.properties
+2025-12-07 11:31:44 [main] INFO  AdminModuleTest - Launching browser: chrome
+2025-12-07 11:31:48 [main] INFO  AdminModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:31:48 [main] INFO  Listeners - 🟦 Test Started: verifySearchUser
+2025-12-07 11:31:48 [main] INFO  AdminModuleTest - ===== Starting Admin Module Test =====
+2025-12-07 11:31:48 [main] INFO  AdminModuleTest - Logged in successfully
+2025-12-07 11:31:52 [main] INFO  AdminModuleTest - Navigated to Admin module
+2025-12-07 11:31:52 [main] INFO  AdminModuleTest - Searched for user: Admin
+2025-12-07 11:31:52 [main] INFO  AdminModuleTest - ✅ Admin user found successfully
+2025-12-07 11:31:52 [main] INFO  Listeners - ✅ Test Passed: verifySearchUser
+2025-12-07 11:31:52 [main] INFO  AdminModuleTest - Closing the browser
+2025-12-07 11:31:53 [main] INFO  AdminModuleTest - =========== Test Finished ===========
+2025-12-07 11:31:53 [main] INFO  DeleteEmployeeTest - =========== Test Started ===========
+2025-12-07 11:31:53 [main] INFO  DeleteEmployeeTest - Loaded config.properties
+2025-12-07 11:31:53 [main] INFO  DeleteEmployeeTest - Launching browser: chrome
+2025-12-07 11:31:56 [main] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:31:56 [main] INFO  Listeners - 🟦 Test Started: verifyDeleteEmployee
+2025-12-07 11:32:03 [main] INFO  DeleteEmployeeTest - 🗑 Employee deleted successfully
+2025-12-07 11:32:03 [main] INFO  Listeners - ✅ Test Passed: verifyDeleteEmployee
+2025-12-07 11:32:03 [main] INFO  DeleteEmployeeTest - Closing the browser
+2025-12-07 11:32:03 [main] INFO  DeleteEmployeeTest - =========== Test Finished ===========
+2025-12-07 11:32:03 [main] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-07 11:32:03 [main] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-07 11:32:03 [main] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-07 11:32:07 [main] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:32:07 [main] INFO  Listeners - 🟦 Test Started: verifyInvalidLogin
+2025-12-07 11:32:07 [main] INFO  InvalidLoginTest - Attempting login with invalid credentials
+2025-12-07 11:32:09 [main] INFO  InvalidLoginTest - Invalid login message successfully verified
+2025-12-07 11:32:09 [main] INFO  Listeners - ✅ Test Passed: verifyInvalidLogin
+2025-12-07 11:32:09 [main] INFO  InvalidLoginTest - Closing the browser
+2025-12-07 11:32:09 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
+2025-12-07 11:32:09 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Started ===========
+2025-12-07 11:32:09 [main] INFO  UpdateEmployeeDetailsTest - Loaded config.properties
+2025-12-07 11:32:09 [main] INFO  UpdateEmployeeDetailsTest - Launching browser: chrome
+2025-12-07 11:32:14 [main] INFO  UpdateEmployeeDetailsTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:32:14 [main] INFO  Listeners - 🟦 Test Started: verifyUpdateEmployeeDetails
+2025-12-07 11:32:30 [main] ERROR Listeners - ❌ Test Failed: verifyUpdateEmployeeDetails
+2025-12-07 11:32:30 [main] INFO  ScreenshotUtil - Screenshot saved successfully: ./screenshots/verifyUpdateEmployeeDetails_20251207_113230.png
+2025-12-07 11:32:30 [main] INFO  Listeners - 📸 Screenshot captured at: ./screenshots/verifyUpdateEmployeeDetails_20251207_113230.png
+2025-12-07 11:32:30 [main] INFO  UpdateEmployeeDetailsTest - Closing the browser
+2025-12-07 11:32:30 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Finished ===========
+2025-12-07 11:32:30 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
+2025-12-07 11:32:30 [main] INFO  SearchEmployeeTest - Loaded config.properties
+2025-12-07 11:32:30 [main] INFO  SearchEmployeeTest - Launching browser: chrome
+2025-12-07 11:32:35 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:32:35 [main] INFO  Listeners - 🟦 Test Started: verifySearchEmployee
+2025-12-07 11:32:42 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
+2025-12-07 11:32:42 [main] INFO  Listeners - ✅ Test Passed: verifySearchEmployee
+2025-12-07 11:32:42 [main] INFO  SearchEmployeeTest - Closing the browser
+2025-12-07 11:32:42 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
+2025-12-07 11:32:42 [main] INFO  SearchCandidateTest - =========== Test Started ===========
+2025-12-07 11:32:42 [main] INFO  SearchCandidateTest - Loaded config.properties
+2025-12-07 11:32:42 [main] INFO  SearchCandidateTest - Launching browser: chrome
+2025-12-07 11:32:47 [main] INFO  SearchCandidateTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:32:47 [main] INFO  Listeners - 🟦 Test Started: verifyCandidateSearch
+2025-12-07 11:32:47 [main] INFO  SearchCandidateTest - ===== Test Started: Search Candidate =====
+2025-12-07 11:32:47 [main] INFO  SearchCandidateTest - Logged in successfully
+2025-12-07 11:32:52 [main] INFO  SearchCandidateTest - Navigated to Recruitment → Candidates
+2025-12-07 11:32:53 [main] INFO  SearchCandidateTest - Candidate search performed for: John Doe
+2025-12-07 11:32:53 [main] INFO  SearchCandidateTest - ✔ Candidate search test passed!
+2025-12-07 11:32:53 [main] INFO  SearchCandidateTest - ===== Test Finished: Search Candidate =====
+2025-12-07 11:32:53 [main] INFO  Listeners - ✅ Test Passed: verifyCandidateSearch
+2025-12-07 11:32:53 [main] INFO  SearchCandidateTest - Closing the browser
+2025-12-07 11:32:53 [main] INFO  SearchCandidateTest - =========== Test Finished ===========
+2025-12-07 11:32:53 [main] INFO  AddCandidateTest - =========== Test Started ===========
+2025-12-07 11:32:53 [main] INFO  AddCandidateTest - Loaded config.properties
+2025-12-07 11:32:53 [main] INFO  AddCandidateTest - Launching browser: chrome
+2025-12-07 11:32:56 [main] INFO  AddCandidateTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:32:56 [main] INFO  Listeners - 🟦 Test Started: verifyAddCandidate
+2025-12-07 11:32:56 [main] INFO  AddCandidateTest - ===== Test Started: Add Candidate =====
+2025-12-07 11:32:57 [main] INFO  AddCandidateTest - Logged in successfully
+2025-12-07 11:33:01 [main] INFO  AddCandidateTest - Navigated to Recruitment
+2025-12-07 11:33:03 [main] INFO  AddCandidateTest - Navigated to Candidates section
+2025-12-07 11:33:05 [main] INFO  AddCandidateTest - Opened Add Candidate form
+2025-12-07 11:33:05 [main] INFO  AddCandidateTest - Filled candidate details
+2025-12-07 11:33:06 [main] INFO  AddCandidateTest - Uploaded resume
+2025-12-07 11:33:06 [main] INFO  AddCandidateTest - Clicked Save
+2025-12-07 11:33:08 [main] INFO  AddCandidateTest - ✅ Candidate added successfully!
+2025-12-07 11:33:08 [main] INFO  Listeners - ✅ Test Passed: verifyAddCandidate
+2025-12-07 11:33:08 [main] INFO  AddCandidateTest - Closing the browser
+2025-12-07 11:33:08 [main] INFO  AddCandidateTest - =========== Test Finished ===========
+2025-12-07 11:33:08 [main] INFO  Listeners - ===== Test Suite Finished =====
+2025-12-07 11:37:00 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Started ===========
+2025-12-07 11:37:00 [main] INFO  UpdateEmployeeDetailsTest - Loaded config.properties
+2025-12-07 11:37:00 [main] INFO  UpdateEmployeeDetailsTest - Launching browser: chrome
+2025-12-07 11:37:06 [main] INFO  UpdateEmployeeDetailsTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:37:11 [main] INFO  UpdateEmployeeDetailsTest - Closing the browser
+2025-12-07 11:37:12 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Finished ===========
+2025-12-07 11:37:12 [main] INFO  AddEmployeeTest - =========== Test Started ===========
+2025-12-07 11:37:12 [main] INFO  AddEmployeeTest - Loaded config.properties
+2025-12-07 11:37:12 [main] INFO  AddEmployeeTest - Launching browser: chrome
+2025-12-07 11:37:16 [main] INFO  AddEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:37:16 [main] INFO  AddEmployeeTest - === Starting Add Employee Test ===
+2025-12-07 11:37:17 [main] INFO  AddEmployeeTest - Logged in successfully
+2025-12-07 11:37:18 [main] INFO  AddEmployeeTest - Dashboard displayed
+2025-12-07 11:37:21 [main] INFO  AddEmployeeTest - Navigated to PIM module
+2025-12-07 11:37:22 [main] INFO  AddEmployeeTest - Filled employee details & clicked Save
+2025-12-07 11:37:23 [main] INFO  AddEmployeeTest - ✅ Employee added successfully!
+2025-12-07 11:37:23 [main] INFO  AddEmployeeTest - Closing the browser
+2025-12-07 11:37:23 [main] INFO  AddEmployeeTest - =========== Test Finished ===========
+2025-12-07 11:38:40 [main] INFO  Listeners - ===== Test Suite Started =====
+2025-12-07 11:38:40 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Started ===========
+2025-12-07 11:38:40 [main] INFO  UpdateEmployeeDetailsTest - Loaded config.properties
+2025-12-07 11:38:40 [main] INFO  UpdateEmployeeDetailsTest - Launching browser: chrome
+2025-12-07 11:38:44 [main] INFO  UpdateEmployeeDetailsTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:38:44 [main] INFO  Listeners - 🟦 Test Started: verifyUpdateEmployeeDetails
+2025-12-07 11:38:54 [main] INFO  Listeners - ✅ Test Passed: verifyUpdateEmployeeDetails
+2025-12-07 11:38:54 [main] INFO  UpdateEmployeeDetailsTest - Closing the browser
+2025-12-07 11:38:55 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Finished ===========
+2025-12-07 11:38:55 [main] INFO  AddEmployeeTest - =========== Test Started ===========
+2025-12-07 11:38:55 [main] INFO  AddEmployeeTest - Loaded config.properties
+2025-12-07 11:38:55 [main] INFO  AddEmployeeTest - Launching browser: chrome
+2025-12-07 11:38:59 [main] INFO  AddEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:38:59 [main] INFO  Listeners - 🟦 Test Started: verifyAddEmployee
+2025-12-07 11:38:59 [main] INFO  AddEmployeeTest - === Starting Add Employee Test ===
+2025-12-07 11:39:00 [main] INFO  AddEmployeeTest - Logged in successfully
+2025-12-07 11:39:02 [main] INFO  AddEmployeeTest - Dashboard displayed
+2025-12-07 11:39:04 [main] INFO  AddEmployeeTest - Navigated to PIM module
+2025-12-07 11:39:05 [main] INFO  AddEmployeeTest - Filled employee details & clicked Save
+2025-12-07 11:39:06 [main] INFO  AddEmployeeTest - ✅ Employee added successfully!
+2025-12-07 11:39:06 [main] INFO  Listeners - ✅ Test Passed: verifyAddEmployee
+2025-12-07 11:39:06 [main] INFO  AddEmployeeTest - Closing the browser
+2025-12-07 11:39:06 [main] INFO  AddEmployeeTest - =========== Test Finished ===========
+2025-12-07 11:39:06 [main] INFO  Listeners - ===== Test Suite Finished =====
+2025-12-07 11:39:27 [main] INFO  Listeners - ===== Test Suite Started =====
+2025-12-07 11:39:27 [main] INFO  LoginTest - =========== Test Started ===========
+2025-12-07 11:39:27 [main] INFO  LoginTest - Loaded config.properties
+2025-12-07 11:39:27 [main] INFO  LoginTest - Launching browser: chrome
+2025-12-07 11:39:32 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:39:32 [main] INFO  Listeners - 🟦 Test Started: verifyValidLogin
+2025-12-07 11:39:32 [main] INFO  LoginTest - ----- Starting Login Test -----
+2025-12-07 11:39:33 [main] INFO  LoginTest - Entered username and password
+2025-12-07 11:39:34 [main] INFO  LoginTest - ✅ Login successful → Dashboard visible
+2025-12-07 11:39:34 [main] INFO  Listeners - ✅ Test Passed: verifyValidLogin
+2025-12-07 11:39:34 [main] INFO  LoginTest - Closing the browser
+2025-12-07 11:39:34 [main] INFO  LoginTest - =========== Test Finished ===========
+2025-12-07 11:39:34 [main] INFO  AddEmployeeTest - =========== Test Started ===========
+2025-12-07 11:39:34 [main] INFO  AddEmployeeTest - Loaded config.properties
+2025-12-07 11:39:34 [main] INFO  AddEmployeeTest - Launching browser: chrome
+2025-12-07 11:39:39 [main] INFO  AddEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:39:39 [main] INFO  Listeners - 🟦 Test Started: verifyAddEmployee
+2025-12-07 11:39:39 [main] INFO  AddEmployeeTest - === Starting Add Employee Test ===
+2025-12-07 11:39:40 [main] INFO  AddEmployeeTest - Logged in successfully
+2025-12-07 11:39:41 [main] INFO  AddEmployeeTest - Dashboard displayed
+2025-12-07 11:39:43 [main] INFO  AddEmployeeTest - Navigated to PIM module
+2025-12-07 11:39:44 [main] INFO  AddEmployeeTest - Filled employee details & clicked Save
+2025-12-07 11:39:46 [main] INFO  AddEmployeeTest - ✅ Employee added successfully!
+2025-12-07 11:39:46 [main] INFO  Listeners - ✅ Test Passed: verifyAddEmployee
+2025-12-07 11:39:46 [main] INFO  AddEmployeeTest - Closing the browser
+2025-12-07 11:39:46 [main] INFO  AddEmployeeTest - =========== Test Finished ===========
+2025-12-07 11:39:46 [main] INFO  AdminModuleTest - =========== Test Started ===========
+2025-12-07 11:39:46 [main] INFO  AdminModuleTest - Loaded config.properties
+2025-12-07 11:39:46 [main] INFO  AdminModuleTest - Launching browser: chrome
+2025-12-07 11:39:50 [main] INFO  AdminModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:39:50 [main] INFO  Listeners - 🟦 Test Started: verifySearchUser
+2025-12-07 11:39:50 [main] INFO  AdminModuleTest - ===== Starting Admin Module Test =====
+2025-12-07 11:39:51 [main] INFO  AdminModuleTest - Logged in successfully
+2025-12-07 11:39:54 [main] INFO  AdminModuleTest - Navigated to Admin module
+2025-12-07 11:39:54 [main] INFO  AdminModuleTest - Searched for user: Admin
+2025-12-07 11:39:54 [main] INFO  AdminModuleTest - ✅ Admin user found successfully
+2025-12-07 11:39:54 [main] INFO  Listeners - ✅ Test Passed: verifySearchUser
+2025-12-07 11:39:54 [main] INFO  AdminModuleTest - Closing the browser
+2025-12-07 11:39:55 [main] INFO  AdminModuleTest - =========== Test Finished ===========
+2025-12-07 11:39:55 [main] INFO  DeleteEmployeeTest - =========== Test Started ===========
+2025-12-07 11:39:55 [main] INFO  DeleteEmployeeTest - Loaded config.properties
+2025-12-07 11:39:55 [main] INFO  DeleteEmployeeTest - Launching browser: chrome
+2025-12-07 11:39:59 [main] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:39:59 [main] INFO  Listeners - 🟦 Test Started: verifyDeleteEmployee
+2025-12-07 11:40:06 [main] INFO  DeleteEmployeeTest - 🗑 Employee deleted successfully
+2025-12-07 11:40:06 [main] INFO  Listeners - ✅ Test Passed: verifyDeleteEmployee
+2025-12-07 11:40:06 [main] INFO  DeleteEmployeeTest - Closing the browser
+2025-12-07 11:40:06 [main] INFO  DeleteEmployeeTest - =========== Test Finished ===========
+2025-12-07 11:40:06 [main] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-07 11:40:06 [main] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-07 11:40:06 [main] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-07 11:40:10 [main] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:40:10 [main] INFO  Listeners - 🟦 Test Started: verifyInvalidLogin
+2025-12-07 11:40:10 [main] INFO  InvalidLoginTest - Attempting login with invalid credentials
+2025-12-07 11:40:12 [main] INFO  InvalidLoginTest - Invalid login message successfully verified
+2025-12-07 11:40:12 [main] INFO  Listeners - ✅ Test Passed: verifyInvalidLogin
+2025-12-07 11:40:12 [main] INFO  InvalidLoginTest - Closing the browser
+2025-12-07 11:40:12 [main] INFO  InvalidLoginTest - =========== Test Finished ===========
+2025-12-07 11:40:12 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Started ===========
+2025-12-07 11:40:12 [main] INFO  UpdateEmployeeDetailsTest - Loaded config.properties
+2025-12-07 11:40:12 [main] INFO  UpdateEmployeeDetailsTest - Launching browser: chrome
+2025-12-07 11:40:17 [main] INFO  UpdateEmployeeDetailsTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:40:17 [main] INFO  Listeners - 🟦 Test Started: verifyUpdateEmployeeDetails
+2025-12-07 11:40:22 [main] ERROR Listeners - ❌ Test Failed: verifyUpdateEmployeeDetails
+2025-12-07 11:40:23 [main] INFO  ScreenshotUtil - Screenshot saved successfully: ./screenshots/verifyUpdateEmployeeDetails_20251207_114022.png
+2025-12-07 11:40:23 [main] INFO  Listeners - 📸 Screenshot captured at: ./screenshots/verifyUpdateEmployeeDetails_20251207_114022.png
+2025-12-07 11:40:23 [main] INFO  UpdateEmployeeDetailsTest - Closing the browser
+2025-12-07 11:40:23 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Finished ===========
+2025-12-07 11:40:23 [main] INFO  SearchEmployeeTest - =========== Test Started ===========
+2025-12-07 11:40:23 [main] INFO  SearchEmployeeTest - Loaded config.properties
+2025-12-07 11:40:23 [main] INFO  SearchEmployeeTest - Launching browser: chrome
+2025-12-07 11:40:29 [main] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:40:29 [main] INFO  Listeners - 🟦 Test Started: verifySearchEmployee
+2025-12-07 11:40:35 [main] INFO  SearchEmployeeTest - ✅ Employee search verified
+2025-12-07 11:40:35 [main] INFO  Listeners - ✅ Test Passed: verifySearchEmployee
+2025-12-07 11:40:35 [main] INFO  SearchEmployeeTest - Closing the browser
+2025-12-07 11:40:35 [main] INFO  SearchEmployeeTest - =========== Test Finished ===========
+2025-12-07 11:40:35 [main] INFO  SearchCandidateTest - =========== Test Started ===========
+2025-12-07 11:40:35 [main] INFO  SearchCandidateTest - Loaded config.properties
+2025-12-07 11:40:35 [main] INFO  SearchCandidateTest - Launching browser: chrome
+2025-12-07 11:40:40 [main] INFO  SearchCandidateTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:40:40 [main] INFO  Listeners - 🟦 Test Started: verifyCandidateSearch
+2025-12-07 11:40:40 [main] INFO  SearchCandidateTest - ===== Test Started: Search Candidate =====
+2025-12-07 11:40:40 [main] INFO  SearchCandidateTest - Logged in successfully
+2025-12-07 11:40:45 [main] INFO  SearchCandidateTest - Navigated to Recruitment → Candidates
+2025-12-07 11:40:45 [main] INFO  SearchCandidateTest - Candidate search performed for: John Doe
+2025-12-07 11:40:45 [main] INFO  SearchCandidateTest - ✔ Candidate search test passed!
+2025-12-07 11:40:45 [main] INFO  SearchCandidateTest - ===== Test Finished: Search Candidate =====
+2025-12-07 11:40:45 [main] INFO  Listeners - ✅ Test Passed: verifyCandidateSearch
+2025-12-07 11:40:45 [main] INFO  SearchCandidateTest - Closing the browser
+2025-12-07 11:40:46 [main] INFO  SearchCandidateTest - =========== Test Finished ===========
+2025-12-07 11:40:46 [main] INFO  AddCandidateTest - =========== Test Started ===========
+2025-12-07 11:40:46 [main] INFO  AddCandidateTest - Loaded config.properties
+2025-12-07 11:40:46 [main] INFO  AddCandidateTest - Launching browser: chrome
+2025-12-07 11:40:50 [main] INFO  AddCandidateTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:40:50 [main] INFO  Listeners - 🟦 Test Started: verifyAddCandidate
+2025-12-07 11:40:50 [main] INFO  AddCandidateTest - ===== Test Started: Add Candidate =====
+2025-12-07 11:40:51 [main] INFO  AddCandidateTest - Logged in successfully
+2025-12-07 11:40:55 [main] INFO  AddCandidateTest - Navigated to Recruitment
+2025-12-07 11:40:57 [main] INFO  AddCandidateTest - Navigated to Candidates section
+2025-12-07 11:40:58 [main] INFO  AddCandidateTest - Opened Add Candidate form
+2025-12-07 11:40:59 [main] INFO  AddCandidateTest - Filled candidate details
+2025-12-07 11:41:00 [main] INFO  AddCandidateTest - Uploaded resume
+2025-12-07 11:41:00 [main] INFO  AddCandidateTest - Clicked Save
+2025-12-07 11:41:01 [main] INFO  AddCandidateTest - ✅ Candidate added successfully!
+2025-12-07 11:41:01 [main] INFO  Listeners - ✅ Test Passed: verifyAddCandidate
+2025-12-07 11:41:01 [main] INFO  AddCandidateTest - Closing the browser
+2025-12-07 11:41:01 [main] INFO  AddCandidateTest - =========== Test Finished ===========
+2025-12-07 11:41:01 [main] INFO  Listeners - ===== Test Suite Finished =====
+2025-12-07 11:56:58 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Started ===========
+2025-12-07 11:56:58 [main] INFO  UpdateEmployeeDetailsTest - Loaded config.properties
+2025-12-07 11:56:58 [main] INFO  UpdateEmployeeDetailsTest - Launching browser: chrome
+2025-12-07 11:57:06 [main] INFO  UpdateEmployeeDetailsTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-07 11:57:16 [main] INFO  UpdateEmployeeDetailsTest - Closing the browser
+2025-12-07 11:57:16 [main] INFO  UpdateEmployeeDetailsTest - =========== Test Finished ===========

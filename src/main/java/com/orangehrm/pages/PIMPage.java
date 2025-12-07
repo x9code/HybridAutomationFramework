@@ -60,7 +60,8 @@ public class PIMPage extends BasePage {
     @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
     WebElement otherIdInput;
 
-
+    @FindBy(xpath = "//div[@class='oxd-table-card']") 
+    WebElement resultRow;
     // ---------------------- DELETE EMPLOYEE ----------------------
     @FindBy(xpath = "//i[@class='oxd-icon bi-trash']")
     WebElement deleteIcon;
@@ -92,7 +93,11 @@ public class PIMPage extends BasePage {
         scrollToElement(saveBtn);
         click(saveBtn);
     }
-
+    
+    public boolean isSearchResultDisplayed() {
+    	
+    	return isDisplayed(resultRow); }
+    
     // Check if employee is added
     public boolean isEmployeeAdded() {
         try {
@@ -123,11 +128,24 @@ public class PIMPage extends BasePage {
 
     // Update Employee Details
     public void updateEmployeeDetails(String nick, String id) {
+
+        waitForVisibility(nickNameInput, 5);
+
         clearAndType(nickNameInput, nick);
         clearAndType(otherIdInput, id);
 
-        click(saveBtn);
+        scrollToElement(saveBtn);
+        wait(1); // allow UI to settle
+
+        // Try normal click first
+        try {
+            click(saveBtn);
+        } catch (Exception e) {
+            // Fallback to JS click if UI blocks it
+            jsClick(saveBtn);
+        }
     }
+
 
     public boolean isUpdateSuccessful() {
         return isDisplayed(successToast);
