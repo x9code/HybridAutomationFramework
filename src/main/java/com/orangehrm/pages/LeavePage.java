@@ -13,7 +13,7 @@ public class LeavePage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    // -------------------- MENU LOCATORS --------------------
+
     @FindBy(xpath = "//span[text()='Leave']")
     WebElement leaveMenu;
 
@@ -23,14 +23,14 @@ public class LeavePage extends BasePage {
     @FindBy(xpath = "//a[contains(.,'My Leave')]")
     WebElement myLeaveMenu;
 
-    // -------------------- DATE FIELD LOCATORS (Correct Final Version) --------------------
+    
     @FindBy(xpath = "//label[text()='From Date']/../following-sibling::div//input")
     WebElement fromDateField;
 
     @FindBy(xpath = "//label[text()='To Date']/../following-sibling::div//input")
     WebElement toDateField;
 
-    // -------------------- OTHER LOCATORS --------------------
+    
     @FindBy(xpath = "//label[text()='Leave Type']/following::div[contains(@class,'oxd-select-text-input')]")
     WebElement leaveTypeDropdown;
 
@@ -50,10 +50,7 @@ public class LeavePage extends BasePage {
     WebElement resultRow;
 
 
-    // =====================================================================
-    //                           NAVIGATION METHODS
-    // =====================================================================
-
+   
     /** Navigate to Apply Leave page */
     public void goToApplyLeave() {
         click(leaveMenu);
@@ -75,9 +72,6 @@ public class LeavePage extends BasePage {
     }
 
 
-    // =====================================================================
-    //                SAFE DATE TYPING (STABLE, RETRY MECHANISM)
-    // =====================================================================
 
     private void safeType(By locator, String value) {
         int attempts = 0;
@@ -104,9 +98,6 @@ public class LeavePage extends BasePage {
     }
 
 
-    // =====================================================================
-    //                           APPLY LEAVE
-    // =====================================================================
 
     public void applyLeave(String from, String to) {
 
@@ -130,9 +121,6 @@ public class LeavePage extends BasePage {
     }
 
 
-    // =====================================================================
-    //                           MY LEAVE SEARCH
-    // =====================================================================
 
     public void searchLeave(String from, String to) {
 
