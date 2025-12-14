@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="com.orangehrm.tests.UpdateEmployeeDetailsTest"/>
+      <class name="com.orangehrm.tests.DeleteEmployeeTest"/>
+      <class name="com.orangehrm.tests.LeaveModuleTest"/>
+      <class name="com.orangehrm.tests.SearchEmployeeTest"/>
+      <class name="com.orangehrm.tests.AddEmployeeTest"/>
+      <class name="com.orangehrm.tests.InvalidLoginTest"/>
+      <class name="com.orangehrm.tests.SearchCandidateTest"/>
+      <class name="com.orangehrm.tests.AddCandidateTest"/>
+      <class name="com.orangehrm.tests.AdminModuleTest"/>
+      <class name="com.orangehrm.tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

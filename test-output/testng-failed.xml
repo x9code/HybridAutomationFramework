@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="classes" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="com.orangehrm.tests.InvalidLoginTest">
+      <class name="com.orangehrm.tests.DeleteEmployeeTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyInvalidLogin" invocation-numbers="3 4"/>
+          <include name="verifyDeleteEmployee"/>
         </methods>
-      </class> <!-- com.orangehrm.tests.InvalidLoginTest -->
+      </class> <!-- com.orangehrm.tests.DeleteEmployeeTest -->
+      <class name="com.orangehrm.tests.UpdateEmployeeDetailsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyUpdateEmployeeDetails"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.UpdateEmployeeDetailsTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
