@@ -19,15 +19,25 @@ public class ExcelUtility {
 
             data = new Object[rows][cols];
 
-            for (int i = 1; i <= rows; i++) { // skipping header row
+            for (int i = 1; i <= rows; i++) {
                 for (int j = 0; j < cols; j++) {
-                    data[i - 1][j] = sheet.getRow(i).getCell(j).toString();
+
+                    Cell cell = sheet.getRow(i).getCell(j);
+
+                    if (cell == null) {
+                        data[i - 1][j] = "";
+                    } else {
+                        data[i - 1][j] = cell.toString().trim();
+                    }
                 }
             }
+
+            wb.close();
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         return data;
     }
 }

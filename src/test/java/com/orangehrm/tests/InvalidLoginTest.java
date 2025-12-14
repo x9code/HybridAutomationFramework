@@ -2,21 +2,34 @@ package com.orangehrm.tests;
 
 import com.orangehrm.base.BaseClass;
 import com.orangehrm.pages.LoginPage;
+import com.orangehrm.utilities.DataProviderUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class InvalidLoginTest extends BaseClass {
 
-    @Test
-    public void verifyInvalidLogin() throws InterruptedException {
+    @Test(dataProvider = "loginData", dataProviderClass = DataProviderUtil.class)
+    
+    public void verifyInvalidLogin(String username, String password, String expectedResult) {
 
         LoginPage login = new LoginPage(driver);
-        logger.info("Attempting login with invalid credentials");
+        login.login(username, password);
 
-        login.login("wrongUser", "wrongPass");
-        Assert.assertTrue(login.isInvalidCredentialsDisplayed(),
-                "Invalid credentials message NOT displayed");
+        if (expectedResult.equalsIgnoreCase("valid")) {
 
-        logger.info("Invalid login message successfully verified");
+            Assert.assertTrue(login.isDashboardDisplayed(),
+                    "❌ Dashboard not displayed for valid login");
+
+        } else if (expectedResult.equalsIgnoreCase("invalid")) {
+
+            Assert.assertTrue(login.isInvalidCredentialsDisplayed(),
+                    "❌ Invalid credentials message not displayed");
+
+        } else if (expectedResult.equalsIgnoreCase("required")) {
+
+            Assert.assertTrue(login.isRequiredFieldMessageDisplayed(),
+                    "❌ Required field validation not shown");
+        }
     }
+
 }
