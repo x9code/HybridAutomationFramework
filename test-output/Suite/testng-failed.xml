@@ -17,6 +17,13 @@
           <include name="verifyUpdateEmployeeDetails"/>
         </methods>
       </class> <!-- com.orangehrm.tests.UpdateEmployeeDetailsTest -->
+      <class name="com.orangehrm.tests.SearchEmployeeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifySearchEmployee"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.SearchEmployeeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

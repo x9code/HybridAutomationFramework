@@ -13,7 +13,7 @@ public class ConfigReader {
         prop = new Properties();
 
         try {
-            FileInputStream fis = new FileInputStream("./src/main/java/com/orangehrm/config/config.properties");
+            FileInputStream fis = new FileInputStream("./src/main/resources/config.properties");
             prop.load(fis);
         } catch (IOException e) {
             e.printStackTrace();
