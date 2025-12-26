@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="classes" name="Suite">
+  <listeners>
+    <listener class-name="com.orangehrm.listeners.Listeners"/>
+  </listeners>
   <test thread-count="5" parallel="classes" name="Test">
     <classes>
       <class name="com.orangehrm.tests.UpdateEmployeeDetailsTest"/>

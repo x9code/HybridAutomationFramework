@@ -13,3 +13,132 @@
 2025-12-25 21:33:58 [main] INFO  AddCandidateTest - ✅ Candidate added successfully!
 2025-12-25 21:33:58 [main] INFO  AddCandidateTest - Closing the browser
 2025-12-25 21:33:58 [main] INFO  AddCandidateTest - =========== Test Finished ===========
+2025-12-25 21:59:51 [main] INFO  Listeners - ===== Test Suite Started =====
+2025-12-25 21:59:51 [main] INFO  LoginTest - =========== Test Started ===========
+2025-12-25 21:59:51 [main] INFO  LoginTest - Loaded config.properties
+2025-12-25 21:59:51 [main] INFO  LoginTest - Launching browser: chrome
+2025-12-25 21:59:54 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 21:59:54 [main] INFO  Listeners - 🟦 Test Started: verifyValidLogin
+2025-12-25 21:59:54 [main] INFO  LoginTest - ----- Starting Login Test -----
+2025-12-25 21:59:55 [main] INFO  LoginTest - Closing the browser
+2025-12-25 21:59:55 [main] INFO  LoginTest - =========== Test Finished ===========
+2025-12-25 21:59:55 [main] INFO  LoginTest - =========== Test Started ===========
+2025-12-25 21:59:55 [main] INFO  LoginTest - Loaded config.properties
+2025-12-25 21:59:55 [main] INFO  LoginTest - Launching browser: chrome
+2025-12-25 21:59:57 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 21:59:57 [main] INFO  Listeners - 🟦 Test Started: verifyValidLogin
+2025-12-25 21:59:57 [main] INFO  LoginTest - ----- Starting Login Test -----
+2025-12-25 21:59:57 [main] INFO  LoginTest - Closing the browser
+2025-12-25 21:59:58 [main] INFO  LoginTest - =========== Test Finished ===========
+2025-12-25 21:59:58 [main] INFO  LoginTest - =========== Test Started ===========
+2025-12-25 21:59:58 [main] INFO  LoginTest - Loaded config.properties
+2025-12-25 21:59:58 [main] INFO  LoginTest - Launching browser: chrome
+2025-12-25 22:00:00 [main] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:00 [main] INFO  Listeners - 🟦 Test Started: verifyValidLogin
+2025-12-25 22:00:00 [main] INFO  LoginTest - ----- Starting Login Test -----
+2025-12-25 22:00:00 [main] ERROR Listeners - ❌ Test Failed: verifyValidLogin
+2025-12-25 22:00:00 [main] ERROR Listeners - ❌ Test Failed: verifyValidLogin
+2025-12-25 22:00:00 [main] INFO  Listeners - ===== Test Suite Finished =====
+2025-12-25 22:00:15 [TestNG-test-Test-2] INFO  DeleteEmployeeTest - =========== Test Started ===========
+2025-12-25 22:00:15 [TestNG-test-Test-2] INFO  DeleteEmployeeTest - Loaded config.properties
+2025-12-25 22:00:15 [TestNG-test-Test-2] INFO  DeleteEmployeeTest - Launching browser: chrome
+2025-12-25 22:00:22 [TestNG-test-Test-2] INFO  DeleteEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:22 [TestNG-test-Test-1] INFO  UpdateEmployeeDetailsTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:26 [TestNG-test-Test-5] INFO  AddEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:26 [TestNG-test-Test-5] INFO  AddEmployeeTest - === Starting Add Employee Test ===
+2025-12-25 22:00:26 [TestNG-test-Test-4] INFO  SearchEmployeeTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:27 [TestNG-test-Test-3] INFO  LeaveModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:29 [TestNG-test-Test-5] INFO  AddEmployeeTest - Logged in successfully
+2025-12-25 22:00:30 [TestNG-test-Test-5] INFO  AddEmployeeTest - Dashboard displayed
+2025-12-25 22:00:35 [TestNG-test-Test-5] INFO  AddEmployeeTest - Navigated to PIM module
+2025-12-25 22:00:38 [TestNG-test-Test-5] INFO  AddEmployeeTest - Filled employee details & clicked Save
+2025-12-25 22:00:38 [TestNG-test-Test-2] INFO  DeleteEmployeeTest - 🗑 Employee deleted successfully
+2025-12-25 22:00:38 [TestNG-test-Test-2] INFO  DeleteEmployeeTest - Closing the browser
+2025-12-25 22:00:39 [TestNG-test-Test-4] INFO  SearchEmployeeTest - ✅ Employee search verified
+2025-12-25 22:00:39 [TestNG-test-Test-4] INFO  SearchEmployeeTest - Closing the browser
+2025-12-25 22:00:39 [TestNG-test-Test-4] INFO  SearchEmployeeTest - =========== Test Finished ===========
+2025-12-25 22:00:40 [TestNG-test-Test-2] INFO  DeleteEmployeeTest - =========== Test Finished ===========
+2025-12-25 22:00:40 [TestNG-test-Test-2] INFO  SearchCandidateTest - =========== Test Started ===========
+2025-12-25 22:00:40 [TestNG-test-Test-2] INFO  SearchCandidateTest - Loaded config.properties
+2025-12-25 22:00:40 [TestNG-test-Test-2] INFO  SearchCandidateTest - Launching browser: chrome
+2025-12-25 22:00:40 [TestNG-test-Test-5] INFO  AddEmployeeTest - ✅ Employee added successfully!
+2025-12-25 22:00:40 [TestNG-test-Test-5] INFO  AddEmployeeTest - Closing the browser
+2025-12-25 22:00:42 [TestNG-test-Test-4] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-25 22:00:42 [TestNG-test-Test-4] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-25 22:00:42 [TestNG-test-Test-4] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-25 22:00:42 [TestNG-test-Test-5] INFO  AddEmployeeTest - =========== Test Finished ===========
+2025-12-25 22:00:42 [TestNG-test-Test-5] INFO  AddCandidateTest - =========== Test Started ===========
+2025-12-25 22:00:42 [TestNG-test-Test-5] INFO  AddCandidateTest - Loaded config.properties
+2025-12-25 22:00:42 [TestNG-test-Test-5] INFO  AddCandidateTest - Launching browser: chrome
+2025-12-25 22:00:43 [TestNG-test-Test-2] INFO  SearchCandidateTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:43 [TestNG-test-Test-2] INFO  SearchCandidateTest - ===== Test Started: Search Candidate =====
+2025-12-25 22:00:45 [TestNG-test-Test-4] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:48 [TestNG-test-Test-5] INFO  AddCandidateTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:48 [TestNG-test-Test-5] INFO  AddCandidateTest - ===== Test Started: Add Candidate =====
+2025-12-25 22:00:49 [TestNG-test-Test-5] INFO  AddCandidateTest - Logged in successfully
+2025-12-25 22:00:50 [TestNG-test-Test-4] INFO  InvalidLoginTest - Closing the browser
+2025-12-25 22:00:50 [TestNG-test-Test-3] INFO  LeaveModuleTest - Closing the browser
+2025-12-25 22:00:51 [TestNG-test-Test-4] INFO  InvalidLoginTest - =========== Test Finished ===========
+2025-12-25 22:00:51 [TestNG-test-Test-3] INFO  LeaveModuleTest - =========== Test Finished ===========
+2025-12-25 22:00:51 [TestNG-test-Test-4] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-25 22:00:51 [TestNG-test-Test-3] INFO  AdminModuleTest - =========== Test Started ===========
+2025-12-25 22:00:51 [TestNG-test-Test-4] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-25 22:00:51 [TestNG-test-Test-4] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-25 22:00:51 [TestNG-test-Test-3] INFO  AdminModuleTest - Loaded config.properties
+2025-12-25 22:00:51 [TestNG-test-Test-3] INFO  AdminModuleTest - Launching browser: chrome
+2025-12-25 22:00:52 [TestNG-test-Test-2] INFO  SearchCandidateTest - Logged in successfully
+2025-12-25 22:00:54 [TestNG-test-Test-5] INFO  AddCandidateTest - Navigated to Recruitment
+2025-12-25 22:00:57 [TestNG-test-Test-1] INFO  UpdateEmployeeDetailsTest - Closing the browser
+2025-12-25 22:00:57 [TestNG-test-Test-4] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:57 [TestNG-test-Test-2] INFO  SearchCandidateTest - Navigated to Recruitment → Candidates
+2025-12-25 22:00:57 [TestNG-test-Test-1] INFO  UpdateEmployeeDetailsTest - =========== Test Finished ===========
+2025-12-25 22:00:57 [TestNG-test-Test-1] INFO  LoginTest - =========== Test Started ===========
+2025-12-25 22:00:57 [TestNG-test-Test-1] INFO  LoginTest - Loaded config.properties
+2025-12-25 22:00:57 [TestNG-test-Test-1] INFO  LoginTest - Launching browser: chrome
+2025-12-25 22:00:58 [TestNG-test-Test-2] INFO  SearchCandidateTest - Candidate search performed for: John Doe
+2025-12-25 22:00:58 [TestNG-test-Test-3] INFO  AdminModuleTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:00:58 [TestNG-test-Test-3] INFO  AdminModuleTest - ===== Starting Admin Module Test =====
+2025-12-25 22:00:58 [TestNG-test-Test-5] INFO  AddCandidateTest - Navigated to Candidates section
+2025-12-25 22:00:59 [TestNG-test-Test-2] INFO  SearchCandidateTest - ✔ Candidate search test passed!
+2025-12-25 22:00:59 [TestNG-test-Test-2] INFO  SearchCandidateTest - ===== Test Finished: Search Candidate =====
+2025-12-25 22:00:59 [TestNG-test-Test-2] INFO  SearchCandidateTest - Closing the browser
+2025-12-25 22:00:59 [TestNG-test-Test-2] INFO  SearchCandidateTest - =========== Test Finished ===========
+2025-12-25 22:01:00 [TestNG-test-Test-3] INFO  AdminModuleTest - Logged in successfully
+2025-12-25 22:01:00 [TestNG-test-Test-5] INFO  AddCandidateTest - Opened Add Candidate form
+2025-12-25 22:01:01 [TestNG-test-Test-4] INFO  InvalidLoginTest - Closing the browser
+2025-12-25 22:01:01 [TestNG-test-Test-5] INFO  AddCandidateTest - Filled candidate details
+2025-12-25 22:01:01 [TestNG-test-Test-4] INFO  InvalidLoginTest - =========== Test Finished ===========
+2025-12-25 22:01:01 [TestNG-test-Test-4] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-25 22:01:01 [TestNG-test-Test-4] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-25 22:01:01 [TestNG-test-Test-4] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-25 22:01:02 [TestNG-test-Test-5] INFO  AddCandidateTest - Uploaded resume
+2025-12-25 22:01:03 [TestNG-test-Test-5] INFO  AddCandidateTest - Clicked Save
+2025-12-25 22:01:04 [TestNG-test-Test-3] INFO  AdminModuleTest - Navigated to Admin module
+2025-12-25 22:01:05 [TestNG-test-Test-5] INFO  AddCandidateTest - ✅ Candidate added successfully!
+2025-12-25 22:01:05 [TestNG-test-Test-5] INFO  AddCandidateTest - Closing the browser
+2025-12-25 22:01:05 [TestNG-test-Test-1] INFO  LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:01:05 [TestNG-test-Test-1] INFO  LoginTest - ----- Starting Login Test -----
+2025-12-25 22:01:05 [TestNG-test-Test-5] INFO  AddCandidateTest - =========== Test Finished ===========
+2025-12-25 22:01:05 [TestNG-test-Test-3] INFO  AdminModuleTest - Searched for user: Admin
+2025-12-25 22:01:06 [TestNG-test-Test-3] INFO  AdminModuleTest - ✅ Admin user found successfully
+2025-12-25 22:01:06 [TestNG-test-Test-3] INFO  AdminModuleTest - Closing the browser
+2025-12-25 22:01:06 [TestNG-test-Test-3] INFO  AdminModuleTest - =========== Test Finished ===========
+2025-12-25 22:01:06 [TestNG-test-Test-1] INFO  LoginTest - Entered username and password
+2025-12-25 22:01:06 [TestNG-test-Test-4] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:01:09 [TestNG-test-Test-1] INFO  LoginTest - ✅ Login successful → Dashboard visible
+2025-12-25 22:01:09 [TestNG-test-Test-1] INFO  LoginTest - Closing the browser
+2025-12-25 22:01:09 [TestNG-test-Test-1] INFO  LoginTest - =========== Test Finished ===========
+2025-12-25 22:01:09 [TestNG-test-Test-4] INFO  InvalidLoginTest - Closing the browser
+2025-12-25 22:01:09 [TestNG-test-Test-4] INFO  InvalidLoginTest - =========== Test Finished ===========
+2025-12-25 22:01:09 [TestNG-test-Test-4] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-25 22:01:09 [TestNG-test-Test-4] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-25 22:01:09 [TestNG-test-Test-4] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-25 22:01:14 [TestNG-test-Test-4] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:01:15 [TestNG-test-Test-4] INFO  InvalidLoginTest - Closing the browser
+2025-12-25 22:01:15 [TestNG-test-Test-4] INFO  InvalidLoginTest - =========== Test Finished ===========
+2025-12-25 22:01:15 [TestNG-test-Test-4] INFO  InvalidLoginTest - =========== Test Started ===========
+2025-12-25 22:01:15 [TestNG-test-Test-4] INFO  InvalidLoginTest - Loaded config.properties
+2025-12-25 22:01:15 [TestNG-test-Test-4] INFO  InvalidLoginTest - Launching browser: chrome
+2025-12-25 22:01:20 [TestNG-test-Test-4] INFO  InvalidLoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2025-12-25 22:01:21 [TestNG-test-Test-4] INFO  InvalidLoginTest - Closing the browser
+2025-12-25 22:01:21 [TestNG-test-Test-4] INFO  InvalidLoginTest - =========== Test Finished ===========
