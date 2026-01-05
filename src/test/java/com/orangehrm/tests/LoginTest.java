@@ -19,10 +19,7 @@ public class LoginTest extends BaseClass {
 
         DashboardPage dp = new DashboardPage(driver);
 
-        Assert.assertTrue(
-                dp.isDashboardDisplayed(),
-                "❌ Dashboard not displayed → Login failed!"
-        );
+        Assert.assertTrue(dp.isDashboardDisplayed(),"❌ Dashboard not displayed → Login failed!");
 
         logger.info("✅ Login successful → Dashboard visible");
     }

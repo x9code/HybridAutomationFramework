@@ -27,7 +27,7 @@ public class AddCandidateTest extends BaseClass {
         rp.goToAddCandidateForm();
         logger.info("Opened Add Candidate form");
 
-        rp.fillCandidateDetails("John1", "K", "Doe", "john1.doe@testmail.com", "9876543210");
+        rp.fillCandidateDetails("John2", "K", "Doe", "john1.doe@testmail.com", "9876543260");
         logger.info("Filled candidate details");
 
         rp.uploadResume(System.getProperty("user.dir") + "/src/test/resources/testdata/resume.pdf");
